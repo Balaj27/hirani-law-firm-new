@@ -50,6 +50,13 @@
       "email": "info@hiranilawfirm.com",
       "phone": "281-665-8188"
     },
+    "contactWidget": {
+      "open": "Contact us",
+      "close": "Close contact options",
+      "call": "Call Us",
+      "email": "Email Us",
+      "consultation": "Request Consultation"
+    },
     "founder": {
       "name": "Sehar Hirani",
       "role": "Managing Attorney",

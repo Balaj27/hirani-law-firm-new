@@ -4,6 +4,7 @@ import Navbar from "@/components/layout/Navbar";
 import Footer from "@/components/layout/Footer";
 import ConsultationPopup from "@/components/layout/ConsultationPopup";
 import CookieConsent from "@/components/layout/CookieConsent";
+import ContactWidget from "@/components/layout/ContactWidget";
 import { CONSENT_DEFAULTS_SCRIPT } from "@/lib/analytics";
 import { LOCALES, getContent, setRequestLocale } from "@/content";
 import { LocaleProvider } from "@/content/client";
@@ -71,6 +72,7 @@ export default async function RootLayout({ children, params }: LayoutProps<"/[la
           <Navbar />
           {children}
           <Footer />
+          <ContactWidget />
           <ConsultationPopup />
           <CookieConsent />
         </LocaleProvider>
