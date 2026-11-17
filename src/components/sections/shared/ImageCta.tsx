@@ -16,6 +16,7 @@ export default function ImageCta({
   replayText = false,
   copy,
   fullImage = false,
+  mobilePortrait = false,
 }: {
   image?: string;
   /** Practice Areas instance: the card text re-animates on every entry */
@@ -29,6 +30,8 @@ export default function ImageCta({
   };
   /** Size the block to the photo's 3:2 ratio so the whole photo shows (no top/bottom crop) */
   fullImage?: boolean;
+  /** Home: leave space above a compact mobile overlay so the portrait stays visible. */
+  mobilePortrait?: boolean;
 }) {
   const content = useContent();
   const t = { ...content.sections.imageCta, ...copy };
@@ -36,7 +39,7 @@ export default function ImageCta({
   // the photo zoom replays every time the block comes back into view
   const zoomed = useAppear(imageRef, { amount: 0.5, once: false });
   return (
-    <div className={`${styles.block} ${fullImage ? styles.fullImage : ""}`}>
+    <div className={`${styles.block} ${fullImage ? styles.fullImage : ""} ${mobilePortrait ? styles.mobilePortrait : ""}`}>
       <div className={styles.card}>
         <Reveal amount={0.5} once={!replayText} className={styles.text}>
           <h6 className={`h6 ${styles.title}`}>{t.title}</h6>

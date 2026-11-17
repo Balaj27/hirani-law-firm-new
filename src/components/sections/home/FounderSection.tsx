@@ -10,8 +10,8 @@ export default function FounderSection() {
       <div className={styles.wrapper}>
         <FounderQuote />
         <Awards />
-        <ImageCta />
-        <ValuesGrid />
+        <ImageCta mobilePortrait />
+        <ValuesGrid consultationOnly />
       </div>
     </section>
   );

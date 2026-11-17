@@ -132,6 +132,22 @@
   .testimonial {
     font-size: 12px;
   }
+  .mobilePortrait {
+    padding: clamp(260px, 85vw, 420px) 16px 16px;
+  }
+  .mobilePortrait .card {
+    width: 100%;
+    padding: 20px;
+    gap: 20px;
+    background: rgba(31, 31, 21, 0.86);
+    backdrop-filter: none;
+  }
+  .mobilePortrait .rating {
+    align-items: flex-start;
+  }
+  .mobilePortrait .testimonial {
+    text-align: left;
+  }
 }
 
 /* whole photo visible (3:2 team photo on Practice Areas) — the block follows the photo's ratio */

@@ -82,6 +82,19 @@
     flex: none;
     width: 100%;
     aspect-ratio: 0.895 / 1;
+    transform: none !important;
+    will-change: auto;
+  }
+  .mobileTeam {
+    height: auto;
+    aspect-ratio: 3 / 2;
+  }
+  .mobileTeam .img {
+    object-fit: contain;
+  }
+  /* Keep the lower photo available for desktop without repeating the team on phones. */
+  .mobileSecondary {
+    display: none;
   }
   .trigger {
     display: none;

@@ -33,7 +33,7 @@ export default function VideoGallery() {
         <div className={`${styles.image} ${styles.outer}`}>
           <Image src={img1} alt={t.imageAlt} fill sizes="232px" className={styles.img} />
         </div>
-        <div className={styles.image}>
+        <div className={`${styles.image} ${styles.mobileTeam}`}>
           <Image src={img2} alt={t.imageAlt} fill sizes="(max-width: 809px) 100vw, 250px" className={styles.img} />
         </div>
         <motion.div className={styles.video} style={{ scale: isPhone ? 1 : scale }}>
@@ -47,7 +47,7 @@ export default function VideoGallery() {
             preload="auto"
           />
         </motion.div>
-        <div className={styles.image}>
+        <div className={`${styles.image} ${styles.mobileSecondary}`}>
           <Image src={img3} alt={t.imageAlt} fill sizes="(max-width: 809px) 100vw, 250px" className={styles.img} />
         </div>
         <div className={`${styles.image} ${styles.outer}`}>

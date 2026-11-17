@@ -39,6 +39,8 @@ type Props = {
   items?: { icon: string; title: string; text: string }[];
   /** Show the closing text + buttons row */
   showCta?: boolean;
+  /** Home shows only the consultation button, with a dark fill. */
+  consultationOnly?: boolean;
   /** 2 columns on desktop (for 4 cards); default 3 */
   columns?: 2 | 3;
 };
@@ -53,6 +55,7 @@ export default function ValuesGrid({
   replay = false,
   items,
   showCta = true,
+  consultationOnly = false,
   columns = 3,
 }: Props) {
   const t = getContent().sections.values;
@@ -91,10 +94,12 @@ export default function ValuesGrid({
             <Reveal once={once} className={styles.cta}>
               <p className={`p18 balance ${styles.ctaText}`}>{t.ctaText}</p>
               <Reveal y={20} amount={0.5} once={once} className={styles.ctaButtons}>
-                <Button href={t.primaryCta.href} variant="fillDark" arrow>
-                  {t.primaryCta.label}
-                </Button>
-                <Button href={t.secondaryCta.href} variant="outlineDark">
+                {!consultationOnly && (
+                  <Button href={t.primaryCta.href} variant="fillDark" arrow>
+                    {t.primaryCta.label}
+                  </Button>
+                )}
+                <Button href={t.secondaryCta.href} variant={consultationOnly ? "fillDark" : "outlineDark"} arrow={consultationOnly}>
                   {t.secondaryCta.label}
                 </Button>
               </Reveal>
