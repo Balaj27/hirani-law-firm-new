@@ -1,0 +1,281 @@
+/* ==========================================================================
+   Jurista – global tokens, reset and typography
+   Breakpoints (match the original Framer site):
+     desktop  >= 1280px
+     tablet   810px – 1279px
+     phone    <= 809px
+   ========================================================================== */
+
+:root {
+  /* Colors */
+  --c-black: #1f1f15; /* dark backgrounds */
+  --c-heading: #373623; /* headings on light */
+  --c-dark: #302f20; /* dark buttons / dark text */
+  --c-body: #656454; /* body copy */
+  --c-accent: #88865a; /* olive accent */
+  --c-light: #f5f5f1; /* light panels */
+  --c-line: #e9e9e6; /* light dividers */
+  --c-line-25: rgba(233, 233, 230, 0.25); /* dividers on dark */
+  --c-gray: #e2e2e2; /* light text on dark */
+  --c-white: #ffffff;
+  --c-divider-dark: #4c4c44;
+  --c-ink: #121212; /* gradient overlays */
+  --c-red: #ff0000;
+
+  /* Easing presets taken from the original animations */
+  --ease-reveal: cubic-bezier(0.12, 0.23, 0, 0.99);
+  --ease-link: cubic-bezier(0.12, 0.23, 0.5, 1);
+  --ease-hover: cubic-bezier(0.44, 0, 0.56, 1);
+  /* Springs sampled from the original, expressed as linear() easings */
+  /* hover variants: underdamped spring, 0.41s */
+  --spring-hover: linear(0, 0.0319, 0.1108, 0.2161, 0.3327, 0.4498, 0.5602, 0.6596, 0.7458, 0.8181, 0.8769, 0.9232, 0.9585, 0.9843, 1.0024, 1.0142, 1.0212, 1.0246, 1.0254, 1.0244, 1.0222, 1.0195, 1.0165, 1.0136, 1.0108, 1.0083, 1.0062, 1.0044, 1.0029, 1.0018, 1);
+  --spring-hover-dur: 0.41s;
+  /* card overlays: critically damped spring, 0.55s */
+  --spring-card: linear(0, 0.0388, 0.1274, 0.2366, 0.3493, 0.4559, 0.5518, 0.635, 0.7057, 0.7645, 0.8129, 0.8521, 0.8837, 0.909, 0.929, 0.9448, 0.9572, 0.9669, 0.9745, 0.9804, 0.9849, 0.9885, 0.9912, 0.9933, 0.9949, 0.9961, 0.997, 0.9977, 0.9983, 0.9987, 1);
+  --spring-card-dur: 0.55s;
+
+  --page-pad: 40px;
+}
+
+@media (max-width: 1279px) {
+  :root {
+    --page-pad: 32px;
+  }
+}
+@media (max-width: 809px) {
+  :root {
+    --page-pad: 20px;
+  }
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  background: var(--c-black);
+  color: var(--c-heading);
+  font-family: var(--font-dm-sans), "DM Sans", sans-serif;
+  /* Same OpenType alternates the original text presets enable */
+  font-feature-settings: "blwf" on, "cv09" on, "cv03" on, "cv04" on, "cv11" on;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: clip;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+figure,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+img,
+video {
+  display: block;
+  max-width: none;
+}
+
+button,
+input,
+select,
+textarea {
+  font: inherit;
+  color: inherit;
+  font-feature-settings: inherit;
+}
+
+input,
+select,
+textarea {
+  font-feature-settings: "ss01" on;
+}
+
+/* --------------------------------------------------------------------------
+   Typography – each class reproduces a Framer text style.
+   -------------------------------------------------------------------------- */
+.serif {
+  font-family: var(--font-fraunces), "Fraunces", serif;
+  font-weight: 300;
+}
+.sans {
+  font-family: var(--font-dm-sans), "DM Sans", sans-serif;
+}
+
+.h1 {
+  font-family: var(--font-fraunces), "Fraunces", serif;
+  font-weight: 300;
+  font-size: 88px;
+  line-height: 1.1;
+  letter-spacing: -0.06em;
+}
+.h2 {
+  font-family: var(--font-fraunces), "Fraunces", serif;
+  font-weight: 300;
+  font-size: 56px;
+  line-height: 1.1;
+  letter-spacing: -0.06em;
+}
+.h3 {
+  font-family: var(--font-fraunces), "Fraunces", serif;
+  font-weight: 300;
+  font-size: 56px;
+  line-height: 1.1;
+  letter-spacing: -0.045em;
+}
+.h4 {
+  font-family: var(--font-fraunces), "Fraunces", serif;
+  font-weight: 300;
+  font-size: 36px;
+  line-height: 1.1;
+  letter-spacing: -0.05em;
+}
+.h5 {
+  font-family: var(--font-fraunces), "Fraunces", serif;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 1.15;
+  letter-spacing: -0.05em;
+}
+.h6 {
+  font-family: var(--font-fraunces), "Fraunces", serif;
+  font-weight: 300;
+  font-size: 28px;
+  line-height: 1.2;
+  letter-spacing: -0.04em;
+}
+.serif20 {
+  font-family: var(--font-fraunces), "Fraunces", serif;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 1.3;
+  letter-spacing: -0.02em;
+}
+.p18 {
+  font-size: 18px;
+  line-height: 1.3;
+  letter-spacing: -0.02em;
+  font-weight: 400;
+}
+.p16 {
+  font-size: 16px;
+  line-height: 1.3;
+  letter-spacing: -0.02em;
+  font-weight: 400;
+}
+.label16 {
+  font-size: 16px;
+  line-height: 1.1;
+  letter-spacing: -0.02em;
+  font-weight: 500;
+}
+.p14 {
+  font-size: 14px;
+  line-height: 1.3;
+  letter-spacing: -0.01em;
+  font-weight: 400;
+}
+.p12 {
+  font-size: 12px;
+  line-height: 1.25;
+  letter-spacing: 0.02em;
+  font-weight: 400;
+}
+
+@media (max-width: 1279px) {
+  .h1 {
+    font-size: 76px;
+  }
+  .h2 {
+    font-size: 44px;
+  }
+  .h4 {
+    font-size: 32px;
+  }
+  .h6 {
+    font-size: 24px;
+  }
+  .serif20 {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 809px) {
+  .h1 {
+    font-size: 48px;
+  }
+  .h2 {
+    font-size: 36px;
+  }
+  .h4 {
+    font-size: 28px;
+  }
+  .h6 {
+    font-size: 20px;
+  }
+  .serif20 {
+    font-size: 16px;
+  }
+  .p18 {
+    font-size: 16px;
+  }
+  .p14 {
+    font-size: 12px;
+  }
+}
+
+/* --------------------------------------------------------------------------
+   Layout helpers
+   -------------------------------------------------------------------------- */
+.page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  overflow: clip;
+}
+
+.wrapper {
+  width: 100%;
+  padding: 0 var(--page-pad);
+}
+
+.balance {
+  text-wrap: balance;
+}
+
+.visually-hidden {
+  position: absolute !important;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+}
