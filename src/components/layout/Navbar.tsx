@@ -120,7 +120,7 @@ export default function Navbar() {
           </div>
 
           <ul className={styles.links}>
-            {NAV_LINKS.map((l) =>
+            {NAV_LINKS.filter((l) => l.href !== "/contact").map((l) =>
               l.children.length > 0 ? (
                 <li
                   key={l.href}
