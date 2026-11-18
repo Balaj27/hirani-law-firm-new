@@ -1,17 +1,17 @@
 import Button from "@/components/ui/Button";
-import CaseCard from "@/components/ui/CaseCard";
+import StackedBlogCard from "@/components/ui/StackedBlogCard";
 import Reveal from "@/components/ui/Reveal";
 import SectionLabel from "@/components/ui/SectionLabel";
 import TrustAvatars from "@/components/ui/TrustAvatars";
 import { HIDDEN } from "@/lib/hidden";
 import { getContent } from "@/content";
-import { getFeaturedCases } from "@/data/caseStudies";
+import { getPosts } from "@/data/blog";
 import styles from "./HomeCaseStudies.module.css";
 
-/** Dark section with case study cards that stack on top of each other while scrolling. */
-export default function HomeCaseStudies() {
-  const t = getContent().sections.homeCaseStudies;
-  const FEATURED_CASES = getFeaturedCases();
+/** Blog posts in the original dark section with sticky, stacking cards. */
+export default function HomeBlogStack() {
+  const t = getContent().sections.homeBlogStack;
+  const posts = getPosts().slice(0, 3);
   return (
     <section className={styles.section}>
       <div className={styles.wrapper}>
@@ -27,13 +27,13 @@ export default function HomeCaseStudies() {
 
         <div className={styles.casesCta}>
           <div className={styles.cases}>
-            {FEATURED_CASES.map((c, i) => (
+            {posts.map((post, i) => (
               <div
-                key={c.slug}
-                className={`${styles.cardWrap} ${i < FEATURED_CASES.length - 1 ? styles.sticky : ""}`}
+                key={post.slug}
+                className={`${styles.cardWrap} ${i < posts.length - 1 ? styles.sticky : ""}`}
                 style={{ zIndex: i + 1 }}
               >
-                <CaseCard item={c} />
+                <StackedBlogCard post={post} />
               </div>
             ))}
           </div>

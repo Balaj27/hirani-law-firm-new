@@ -560,6 +560,25 @@
         "href": "/contact"
       }
     },
+    "homeBlogStack": {
+      "label": "Nuestro Blog",
+      "heading": "Información legal para familias y víctimas de lesiones en Texas",
+      "ctaText": "Explore orientación práctica sobre derecho familiar y lesiones personales, y encuentre respuestas a las preguntas que le importan.",
+      "primaryCta": {
+        "label": "Ver todos los artículos",
+        "href": "/blog"
+      },
+      "secondaryCta": {
+        "label": "Solicitar Consulta",
+        "href": "/contact"
+      }
+    },
+    "homeReviews": {
+      "label": "Reseñas de Google",
+      "heading": "Lo que dicen nuestros clientes",
+      "cta": "Ver todas las reseñas",
+      "readLess": "Leer menos"
+    },
     "homeCaseStudies": {
       "label": "Refined advocacy for complex matters",
       "heading": "Delivering trusted legal services with experience & commitment to justice.",
@@ -598,8 +617,9 @@
       "title": "Preguntas Frecuentes",
       "subtitle": "Preguntas Frecuentes",
       "intro": "Cuando enfrenta un asunto legal serio, la incertidumbre puede ser abrumadora. Hemos creado esta página para brindar respuestas claras y directas a las preguntas más comunes que recibimos de clientes en Houston y las áreas circundantes.",
-      "still": "Contáctenos",
-      "cta": "Solicitar Consulta"
+      "still": "¿Tiene más preguntas?",
+      "cta": "Solicitar Consulta",
+      "moreCta": "Ver más preguntas frecuentes"
     },
     "consultation": {
       "label": "Comience Aquí",

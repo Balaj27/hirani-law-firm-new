@@ -32,9 +32,16 @@ export default function FaqBlock({ id, askHref = "/contact", fullButton = false,
           <p className={`p18 ${styles.intro}`}>{t.intro}</p>
           <div className={styles.button}>
             <p className={`p16 ${styles.still}`}>{t.still}</p>
-            <Button href={askHref} variant="fillDark" arrow compactFrom={fullButton ? "never" : "phone"}>
-              {t.cta}
-            </Button>
+            <div className={styles.actions}>
+              <Button href={askHref} variant="fillDark" arrow compactFrom={fullButton ? "never" : "phone"}>
+                {t.cta}
+              </Button>
+              {home && (
+                <Button href="/faqs" variant="outlineDark" arrow>
+                  {t.moreCta}
+                </Button>
+              )}
+            </div>
           </div>
         </Reveal>
         <div className={styles.spacer} />

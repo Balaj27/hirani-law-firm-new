@@ -8,7 +8,6 @@ import Button from "@/components/ui/Button";
 import { ChevronCentered, ChevronDown } from "@/components/ui/Icons";
 import NavLink from "@/components/ui/NavLink";
 import { isLocale } from "@/content";
-import { HIDDEN } from "@/lib/hidden";
 import { switchLocale, useContent } from "@/content/client";
 import navLinkStyles from "@/components/ui/NavLink.module.css";
 import styles from "./Navbar.module.css";
@@ -21,14 +20,9 @@ import styles from "./Navbar.module.css";
  * - Below 1280px it collapses into a hamburger that opens a full-screen menu.
  */
 export default function Navbar() {
-  const { site, meta } = useContent();
+  const { site } = useContent();
   const { nav, logo } = site;
-  // template-only Case Studies link, shown while the section is enabled (src/lib/hidden.ts), before Blog
-  const NAV_LINKS = HIDDEN.caseStudies
-    ? nav.links
-    : nav.links.flatMap((l) =>
-        l.href === "/blog" ? [{ label: meta.pageTitles.caseStudies, href: "/case-studies", children: [] }, l] : [l],
-      );
+  const NAV_LINKS = nav.links;
   const LOGO_LIGHT = logo.light; // logo for dark backgrounds
   const LOGO_DARK = logo.dark; // logo for light backgrounds
   const lang = nav.languageSwitch;

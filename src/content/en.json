@@ -560,6 +560,25 @@
         "href": "/contact"
       }
     },
+    "homeBlogStack": {
+      "label": "From Our Blog",
+      "heading": "Legal Insights for Texas Families & Injury Victims",
+      "ctaText": "Explore practical guidance on family law and personal injury, and find answers to questions that matter to you.",
+      "primaryCta": {
+        "label": "View All Articles",
+        "href": "/blog"
+      },
+      "secondaryCta": {
+        "label": "Request Consultation",
+        "href": "/contact"
+      }
+    },
+    "homeReviews": {
+      "label": "Google Reviews",
+      "heading": "What Our Clients Are Saying",
+      "cta": "View All Reviews",
+      "readLess": "Read less"
+    },
     "homeCaseStudies": {
       "label": "Refined advocacy for complex matters",
       "heading": "Delivering trusted legal services with experience & commitment to justice.",
@@ -598,8 +617,9 @@
       "title": "Frequently Asked Questions",
       "subtitle": "FAQs",
       "intro": "When you're facing a serious legal issue, the uncertainty can be overwhelming. We have created this page to provide clear, straightforward answers to the most common questions we receive from clients in Houston and the surrounding areas.",
-      "still": "Get In Touch",
-      "cta": "Request Consultation"
+      "still": "Still have more Questions?",
+      "cta": "Request Consultation",
+      "moreCta": "View More FAQs"
     },
     "consultation": {
       "label": "Start Here",

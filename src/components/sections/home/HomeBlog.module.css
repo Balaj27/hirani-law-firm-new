@@ -29,6 +29,10 @@
 .heading {
   color: var(--c-heading);
 }
+.reviews {
+  width: 100%;
+  min-width: 0;
+}
 .tabletOnly {
   display: none;
 }

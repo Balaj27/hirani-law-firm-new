@@ -5,10 +5,10 @@ import FounderSection from "@/components/sections/home/FounderSection";
 import Clients from "@/components/sections/home/Clients";
 import VideoGallery from "@/components/sections/home/VideoGallery";
 import HomeAttorneys from "@/components/sections/home/HomeAttorneys";
-import HomeCaseStudies from "@/components/sections/home/HomeCaseStudies";
+import HomeBlogStack from "@/components/sections/home/HomeBlogStack";
 import ProcessSection from "@/components/sections/home/ProcessSection";
 import ConsultationSection from "@/components/sections/shared/ConsultationSection";
-import HomeBlog from "@/components/sections/home/HomeBlog";
+import HomeReviews from "@/components/sections/home/HomeReviews";
 import FooterCta from "@/components/sections/home/FooterCta";
 import { setRequestLocale } from "@/content";
 import { HIDDEN } from "@/lib/hidden";
@@ -32,10 +32,10 @@ export default async function HomePage({ params }: PageProps<"/[lang]">) {
       <Clients />
       {!HIDDEN.videoGallery && <VideoGallery />}
       <HomeAttorneys />
-      {!HIDDEN.caseStudies && <HomeCaseStudies />}
+      <HomeBlogStack />
       <ProcessSection />
       <ConsultationSection />
-      <HomeBlog />
+      <HomeReviews />
       <FooterCta />
     </main>
   );

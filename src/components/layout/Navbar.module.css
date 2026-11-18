@@ -440,7 +440,7 @@
   }
 }
 
-/* 7 links (with Case Studies) on narrow desktops: slightly tighter spacing so "Contact" keeps clear of "ES" */
+/* Slightly tighter navigation spacing on narrow desktops. */
 @media (min-width: 1280px) and (max-width: 1439px) {
   .links {
     gap: 18px;
