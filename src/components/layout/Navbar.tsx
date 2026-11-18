@@ -173,7 +173,16 @@ export default function Navbar() {
           </div>
 
           {/* Mobile menu content */}
-          <div className={styles.mobileMenu} aria-hidden={!open}>
+          <div
+            className={styles.mobileMenu}
+            aria-hidden={!open}
+            onClick={(event) => {
+              if ((event.target as HTMLElement).closest("a")) {
+                setOpen(false);
+                setExpanded(null);
+              }
+            }}
+          >
             <ul className={styles.mobileLinks}>
               {NAV_LINKS.map((l) => (
                 <li key={l.href}>
