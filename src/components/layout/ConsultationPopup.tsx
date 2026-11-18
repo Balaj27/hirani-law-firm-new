@@ -1,6 +1,7 @@
 "use client";
 
 import Image from "next/image";
+import { usePathname } from "next/navigation";
 import { useEffect, useRef, useState } from "react";
 import ContactForm from "@/components/ui/ContactForm";
 import SectionLabel from "@/components/ui/SectionLabel";
@@ -11,8 +12,15 @@ import styles from "./ConsultationPopup.module.css";
 const POPUP_KEY = "hl-consultation-popup-shown";
 const POPUP_DELAY_MS = 25000;
 
-/** Timed "Need a consultation?" modal. Closes on ×, Escape or a click on the backdrop. */
+/** Keep the popup and its timer unmounted on the consultation page. */
 export default function ConsultationPopup() {
+  const pathname = usePathname();
+  if (/^\/(?:en\/|es\/)?contact\/?$/.test(pathname)) return null;
+  return <TimedConsultationPopup />;
+}
+
+/** Timed consultation modal. Closes on ×, Escape or a click on the backdrop. */
+function TimedConsultationPopup() {
   const t = useContent().site.consultationPopup;
   const [open, setOpen] = useState(false);
   const dialogRef = useRef<HTMLElement>(null);
