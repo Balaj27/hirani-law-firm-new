@@ -22,7 +22,7 @@ import styles from "./Navbar.module.css";
 export default function Navbar() {
   const { site } = useContent();
   const { nav, logo } = site;
-  const NAV_LINKS = nav.links;
+  const NAV_LINKS = nav.links.filter((link) => link.href !== "/contact");
   const LOGO_LIGHT = logo.light; // logo for dark backgrounds
   const LOGO_DARK = logo.dark; // logo for light backgrounds
   const lang = nav.languageSwitch;
@@ -114,7 +114,7 @@ export default function Navbar() {
           </div>
 
           <ul className={styles.links}>
-            {NAV_LINKS.filter((l) => l.href !== "/contact").map((l) =>
+            {NAV_LINKS.map((l) =>
               l.children.length > 0 ? (
                 <li
                   key={l.href}
