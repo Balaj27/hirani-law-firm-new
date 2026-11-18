@@ -2,33 +2,49 @@
 .backdrop {
   position: fixed;
   inset: 0;
+  height: 100dvh;
   z-index: 2000;
   display: grid;
   place-items: center;
-  padding: 20px;
+  padding: max(20px, env(safe-area-inset-top)) max(20px, env(safe-area-inset-right)) max(20px, env(safe-area-inset-bottom)) max(20px, env(safe-area-inset-left));
   background: rgba(31, 31, 21, 0.78);
   backdrop-filter: blur(5px);
 }
 .popup {
   position: relative;
-  display: grid;
-  grid-template-columns: minmax(300px, 460px) minmax(360px, 1fr);
+  display: flex;
+  flex-direction: column;
   width: min(1000px, 100%);
-  max-height: calc(100vh - 40px);
-  overflow: auto;
+  max-height: 100%;
+  min-height: 0;
+  overflow: hidden;
   background: var(--c-white);
   border-top: 4px solid var(--c-accent);
   box-shadow: 0 36px 90px rgba(0, 0, 0, 0.5);
 }
+.toolbar {
+  flex: none;
+  display: flex;
+  justify-content: flex-end;
+  padding: 8px 12px;
+  background: var(--c-white);
+}
+.scrollArea {
+  display: grid;
+  grid-template-columns: minmax(0, 460px) minmax(0, 1fr);
+  grid-auto-rows: max-content;
+  align-content: start;
+  min-height: 0;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  -webkit-overflow-scrolling: touch;
+}
 .close {
-  position: absolute;
-  top: 12px;
-  right: 12px;
   z-index: 3;
   display: grid;
   place-items: center;
-  width: 42px;
-  height: 42px;
+  width: 48px;
+  height: 48px;
   border: 1px solid var(--c-line);
   border-radius: 50%;
   background: var(--c-white);
@@ -38,6 +54,10 @@
     background-color 0.25s ease,
     color 0.25s ease,
     border-color 0.25s ease;
+}
+.close:focus-visible {
+  outline: 3px solid var(--c-accent);
+  outline-offset: 2px;
 }
 .close:hover {
   background: var(--c-accent);
@@ -54,6 +74,10 @@
   object-fit: cover;
   object-position: center top;
 }
+.portrait {
+  position: absolute;
+  inset: 0;
+}
 .caption {
   position: absolute;
   inset: auto 0 0;
@@ -63,11 +87,29 @@
   background: linear-gradient(180deg, transparent, rgba(18, 18, 18, 0.92));
 }
 .content {
+  min-width: 0;
+  overflow-wrap: anywhere;
   align-self: center;
   display: flex;
   flex-direction: column;
   gap: 12px;
   padding: clamp(32px, 4vw, 48px);
+}
+/* Let enlarged phone text increase field height instead of clipping it. */
+.content input {
+  height: auto;
+  min-height: 1.5em;
+  line-height: 1.5;
+}
+.content select {
+  height: auto;
+  min-height: 3.125em;
+}
+.content textarea {
+  min-height: 7.75em;
+}
+.content button {
+  white-space: normal;
 }
 .title {
   margin: 0;
@@ -85,18 +127,24 @@
 
 @media (max-width: 767px) {
   .backdrop {
-    padding: 12px;
+    padding: max(12px, env(safe-area-inset-top)) max(12px, env(safe-area-inset-right)) max(12px, env(safe-area-inset-bottom)) max(12px, env(safe-area-inset-left));
   }
-  .popup {
+  .scrollArea {
     grid-template-columns: 1fr;
-    max-height: calc(100vh - 24px);
   }
   .imageWrap {
-    min-height: 190px;
-    max-height: 190px;
+    min-height: 0;
+  }
+  .portrait {
+    position: relative;
+    aspect-ratio: 3 / 2;
   }
   .image {
-    object-position: center 16%;
+    object-position: center top;
+  }
+  .caption {
+    position: static;
+    background: var(--c-black);
   }
   .content {
     padding: 24px;
