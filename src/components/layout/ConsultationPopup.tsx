@@ -4,6 +4,7 @@ import Image from "next/image";
 import { usePathname } from "next/navigation";
 import { useEffect, useRef, useState } from "react";
 import ContactForm from "@/components/ui/ContactForm";
+import { MailIcon, PhoneIcon } from "@/components/ui/Icons";
 import SectionLabel from "@/components/ui/SectionLabel";
 import { useContent } from "@/content/client";
 import styles from "./ConsultationPopup.module.css";
@@ -21,7 +22,7 @@ export default function ConsultationPopup() {
 
 /** Timed consultation modal. Closes on ×, Escape or a click on the backdrop. */
 function TimedConsultationPopup() {
-  const t = useContent().site.consultationPopup;
+  const { contact, consultationPopup: t } = useContent().site;
   const [open, setOpen] = useState(false);
   const dialogRef = useRef<HTMLElement>(null);
   const closeRef = useRef<HTMLButtonElement>(null);
@@ -108,6 +109,16 @@ function TimedConsultationPopup() {
               {t.title}
             </h2>
             <p className={`p16 ${styles.body}`}>{t.body}</p>
+            <div className={styles.contactLinks}>
+              <a href={`tel:+1${contact.phone.replace(/\D/g, "")}`}>
+                <PhoneIcon width={18} height={18} aria-hidden="true" />
+                <span>{contact.phone}</span>
+              </a>
+              <a href={`mailto:${contact.email}`}>
+                <MailIcon width={18} height={18} aria-hidden="true" />
+                <span>{contact.email}</span>
+              </a>
+            </div>
             <ContactForm showTitle={false} />
           </div>
         </div>

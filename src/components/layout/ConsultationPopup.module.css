@@ -116,8 +116,27 @@
   color: var(--c-heading);
 }
 .body {
-  margin: 0 0 12px;
+  margin: 0;
   color: var(--c-body);
+}
+.contactLinks {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 16px;
+  margin-bottom: 12px;
+}
+.contactLinks a {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  min-width: 0;
+  color: var(--c-heading);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+.contactLinks svg {
+  flex: none;
+  color: var(--c-accent);
 }
 /* the form card sits flat inside the popup */
 .content > div:last-child {
