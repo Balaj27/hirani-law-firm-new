@@ -14,7 +14,7 @@
       "caseStudyFallback": "Case Study",
       "attorneys": "Our Team",
       "attorneyFallback": "Our Team",
-      "blog": "Legal Blog — Texas Family Law & Personal Injury Insights",
+      "blog": "Blog jurídico sobre derecho familiar y lesiones personales en Texas",
       "contact": "Contact",
       "privacy": "Política de Privacidad",
       "terms": "Terms of Use",
@@ -29,7 +29,7 @@
       "about": "Hirani Law Firm PLLC is built on one principle: your case is personal. Learn about our client-first approach to family law and personal injury in Greater Houston.",
       "practiceAreas": "Hirani Law Firm handles family law and personal injury matters across Greater Houston and Texas — divorce, custody, support, adoption, car accidents, and more.",
       "attorneys": "Meet the Hirani Law Firm team — a collaborative group supporting you from your first call to the final resolution of your case.",
-      "blog": "Practical legal guides from Hirani Law Firm on Texas divorce, child custody, property division, and car accident claims. Serving Houston, Katy, and Fort Bend County.",
+      "blog": "Guías prácticas de Hirani Law Firm sobre divorcio, custodia infantil, división de bienes y reclamaciones por accidentes de auto en Texas. Atendemos a clientes en Houston, Katy y el condado de Fort Bend.",
       "contact": "Schedule your confidential consultation with Hirani Law Firm PLLC. Call 281-665-8188 or send a message. Office in Katy, TX serving Greater Houston.",
       "privacy": "Hirani Law Firm PLLC (\"nosotros\" o \"nuestro\") opera hiranilawfirm.com. Esta Política de Privacidad explica qué información recopilamos, cómo la utilizamos y las opciones disponibles conforme a la ley aplicable, incluida la Ley de Privacidad y Seguridad de Datos de Texas (TDPSA).",
       "reviews": "Read what Hirani Law Firm clients say about communication, preparation, family law guidance, and support during stressful legal matters.",
@@ -288,7 +288,7 @@
     "aboutUs": "Sobre Nosotros",
     "meetOurAttorneys": "Meet Our Attorneys",
     "freeConsultation": "Reserve una Consulta",
-    "youMightLike": "You also might like",
+    "youMightLike": "También le puede interesar",
     "rating": "5.0",
     "satisfactionNote": "Basado en los comentarios de clientes en casos de derecho familiar y lesiones personales, estas son las cualidades que más se mencionan.",
     "clientPhotoAlt": "photo of a client",
@@ -861,7 +861,7 @@
       "awards": "Membresías"
     },
     "blog": {
-      "title": "Legal Insights for Texas Families & Injury Victims",
+      "title": "Orientación legal para familias y víctimas de lesiones en Texas",
       "faqTitle": "Preguntas Frecuentes"
     },
     "contact": {
@@ -3849,401 +3849,401 @@
     "blog": [
       {
         "slug": "texas-child-custody-factors",
-        "title": "12 Factors Texas Judges Consider in Child Custody Cases",
-        "excerpt": "Facing a custody hearing in Texas? Learn the 12 factors judges weigh, the difference between conservatorship and possession, and how to prepare. Schedule a confidential consultation.",
+        "title": "12 factores que los jueces de Texas consideran en casos de custodia infantil",
+        "excerpt": "¿Tiene una audiencia de custodia en Texas? Conozca los 12 factores que evalúan los jueces, la diferencia entre la tutela legal y la posesión, y cómo prepararse. Programe una consulta confidencial.",
         "date": "25 de septiembre de 2026",
         "dateISO": "2026-09-25",
-        "metaTitle": "12 Factors Texas Judges Consider in Custody Cases",
-        "category": "Family Law",
+        "metaTitle": "12 factores que los jueces de Texas consideran en casos de custodia",
+        "category": "Derecho familiar",
         "image": "/images/hirani/blog-texas-child-custody.webp",
-        "imageAlt": "Parent holding a young child's hand — Texas child custody factors",
+        "imageAlt": "Una persona adulta toma de la mano a un menor, en referencia a los factores de custodia infantil en Texas",
         "content": {
           "intro": [
-            "If you're heading into a custody case in Texas, one of the most common questions parents ask is: what is the judge actually looking at? Texas courts don't use a rigid formula — instead, judges weigh a range of factors to determine what arrangement serves the \"best interest of the child,\" a legal standard that gives courts broad discretion.",
-            "Knowing what the court is looking for before you walk into that hearing can change how you prepare, what evidence you gather, and how you present your case. Below are the 12 factors Texas judges may consider, plus a breakdown of two terms that are often confused but mean very different things: conservatorship and possession."
+            "Si se enfrenta a un caso de custodia en Texas, quizá se pregunte qué evalúa realmente el juez. Los tribunales de Texas tienen amplia discreción para sopesar distintos factores y determinar qué arreglo responde al \"interés superior del menor\". Este criterio legal se aplica según las circunstancias de cada caso.",
+            "Entender qué evalúa el tribunal puede ayudarle a prepararse para la audiencia, reunir pruebas y presentar su caso. A continuación encontrará los 12 factores que los jueces de Texas pueden considerar y la diferencia entre dos términos que suelen confundirse: la tutela legal y la posesión."
           ],
           "sections": [
             {
-              "heading": "The Child's Needs and Relationships (Factors 1–4)",
+              "heading": "Las necesidades y relaciones del menor (factores 1 al 4)",
               "blocks": [
                 {
                   "type": "text",
                   "items": [],
-                  "text": "The court's first priority is always the child — not either parent's preferences or convenience."
+                  "text": "El tribunal da prioridad al bienestar del menor por encima de las preferencias o la conveniencia de cualquiera de los padres."
                 },
                 {
                   "type": "text",
                   "items": [],
-                  "text": "**1. Emotional and physical needs of the child.** Judges look at the child's day-to-day needs, including health, developmental stage, schooling, and emotional stability, and which parent is better positioned to meet them."
+                  "text": "**1. Necesidades emocionales y físicas del menor.** Los jueces consideran sus necesidades cotidianas, entre ellas su salud, etapa de desarrollo, escolaridad y estabilidad emocional. También evalúan cuál de los padres está en mejores condiciones de atenderlas."
                 },
                 {
                   "type": "text",
                   "items": [],
-                  "text": "**2. The child's relationship with each parent.** Courts consider the existing bond between the child and each parent, including who has historically handled caretaking responsibilities."
+                  "text": "**2. Relación del menor con cada uno de sus padres.** Los tribunales toman en cuenta el vínculo existente entre el menor y cada uno de sus padres, así como quién se ha encargado habitualmente de su cuidado."
                 },
                 {
                   "type": "text",
                   "items": [],
-                  "text": "**3. The child's relationship with siblings.** Keeping siblings together is often a priority, and judges will factor in the impact a custody arrangement would have on sibling relationships."
+                  "text": "**3. Relación del menor con sus hermanos.** Mantener juntos a los hermanos suele ser una prioridad. Los jueces consideran cómo afectaría el arreglo de custodia a esas relaciones."
                 },
                 {
                   "type": "text",
                   "items": [],
-                  "text": "**4. The child's own preferences, if age-appropriate.** In Texas, a child who is 12 or older can request to speak with the judge about their custody preference. While not the deciding factor, the court can take the child's wishes into account."
+                  "text": "**4. Preferencias del menor, si su edad lo permite.** En Texas, un menor de 12 años o más puede pedir hablar con el juez sobre su preferencia de custodia. El tribunal puede tenerla en cuenta junto con los demás factores."
                 }
               ]
             },
             {
-              "heading": "Each Parent's Situation (Factors 5–8)",
+              "heading": "La situación de cada padre o madre (factores 5 al 8)",
               "blocks": [
                 {
                   "type": "text",
                   "items": [],
-                  "text": "Beyond the child, courts also evaluate each parent's capacity to provide a safe, stable, and nurturing environment."
+                  "text": "Los tribunales también evalúan la capacidad de cada padre o madre para ofrecer un entorno seguro y estable que favorezca el desarrollo del menor."
                 },
                 {
                   "type": "text",
                   "items": [],
-                  "text": "**5. Stability of each parent's home environment.** This includes housing stability, routine, and whether the environment supports the child's wellbeing."
+                  "text": "**5. Estabilidad del hogar de cada padre o madre.** Se consideran la estabilidad de la vivienda, las rutinas y si el entorno favorece el bienestar del menor."
                 },
                 {
                   "type": "text",
                   "items": [],
-                  "text": "**6. Parenting skills and ability to nurture.** Judges consider each parent's demonstrated ability to care for the child's physical, emotional, and educational needs."
+                  "text": "**6. Habilidades de crianza y capacidad de cuidado.** Los jueces consideran la capacidad que cada padre o madre ha demostrado para atender las necesidades físicas, emocionales y educativas del menor."
                 },
                 {
                   "type": "text",
                   "items": [],
-                  "text": "**7. Work schedule and availability.** A parent's job demands and flexibility to be present for the child factor into the court's assessment."
+                  "text": "**7. Horario de trabajo y disponibilidad.** El tribunal considera las exigencias laborales de cada padre o madre y la flexibilidad de su horario para estar presente en la vida del menor."
                 },
                 {
                   "type": "text",
                   "items": [],
-                  "text": "**8. Geographic proximity of each parent.** Distance between parents' homes can affect school logistics, visitation schedules, and the practicality of shared custody."
+                  "text": "**8. Cercanía entre los hogares.** La distancia entre las viviendas puede afectar los traslados escolares, el horario de visitas y la viabilidad de la custodia compartida."
                 }
               ]
             },
             {
-              "heading": "Safety and Co-Parenting Ability (Factors 9–12)",
+              "heading": "Seguridad y capacidad de colaborar en la crianza (factores 9 al 12)",
               "blocks": [
                 {
                   "type": "text",
                   "items": [],
-                  "text": "Safety concerns and each parent's willingness to support the child's relationship with the other parent carry significant weight."
+                  "text": "La seguridad del menor y la disposición de cada padre o madre a apoyar la relación del menor con el otro tienen un peso considerable."
                 },
                 {
                   "type": "text",
                   "items": [],
-                  "text": "**9. History of domestic violence or abuse.** Any documented history of violence or abuse is a serious factor and can significantly limit or restrict a parent's custody or visitation rights."
+                  "text": "**9. Antecedentes de violencia familiar o maltrato.** Cualquier antecedente documentado de violencia o maltrato es un factor grave que puede limitar considerablemente los derechos de custodia o visita de un padre o una madre."
                 },
                 {
                   "type": "text",
                   "items": [],
-                  "text": "**10. History of substance abuse.** Courts assess whether substance abuse issues, past or present, could affect a parent's ability to safely care for the child."
+                  "text": "**10. Antecedentes de abuso de sustancias.** Los tribunales evalúan si existen problemas pasados o actuales de abuso de sustancias que puedan afectar la capacidad de cuidar al menor de forma segura."
                 },
                 {
                   "type": "text",
                   "items": [],
-                  "text": "**11. Any false allegations made by either parent.** Texas courts take false allegations seriously — making unfounded claims to gain an advantage in a custody case can damage a parent's credibility and case."
+                  "text": "**11. Acusaciones falsas de cualquiera de los padres.** Los tribunales de Texas toman en serio las acusaciones falsas. Hacer afirmaciones infundadas para obtener ventaja en un caso de custodia puede perjudicar la credibilidad de quien las hace y afectar su caso."
                 },
                 {
                   "type": "text",
                   "items": [],
-                  "text": "**12. Willingness to support the child's relationship with the other parent.** Texas courts generally favor arrangements that allow the child to maintain a relationship with both parents. A parent who actively undermines that relationship can be viewed unfavorably by the court."
+                  "text": "**12. Disposición a apoyar la relación del menor con el otro padre o madre.** Los tribunales de Texas suelen favorecer los arreglos que permiten al menor mantener una relación con ambos padres. Si uno de ellos interfiere deliberadamente en esa relación, el tribunal puede considerarlo un factor desfavorable."
                 }
               ]
             },
             {
-              "heading": "Know the Difference: Conservatorship vs. Possession",
+              "heading": "La diferencia entre la tutela legal y la posesión",
               "blocks": [
                 {
                   "type": "text",
                   "items": [],
-                  "text": "These two terms are often used interchangeably by parents going through a custody case — but they mean very different things, and it's important to understand both."
+                  "text": "En un caso de custodia, es común que los padres usen estos dos términos como si fueran intercambiables. Cada uno cumple una función distinta."
                 },
                 {
                   "type": "text",
                   "items": [],
-                  "text": "**Conservatorship = who makes decisions.** This covers legal decision-making authority over things like the child's education, healthcare, and religious upbringing. Parents can be named joint managing conservators (sharing decision-making) or one parent may be named sole managing conservator."
+                  "text": "**Tutela legal (conservatorship): quién toma las decisiones.** Se refiere a la autoridad legal para tomar decisiones sobre la educación, la atención médica y la formación religiosa del menor, entre otros asuntos. El tribunal puede nombrar a ambos padres tutores administradores conjuntos para que compartan la toma de decisiones, o puede nombrar a uno solo como tutor administrador exclusivo."
                 },
                 {
                   "type": "text",
                   "items": [],
-                  "text": "**Possession = where the child lives and the visitation schedule.** This determines the physical custody arrangement — where the child primarily resides and the schedule for time with the other parent."
+                  "text": "**Posesión (possession): dónde vive el menor y cuál es el horario de visitas.** Determina el arreglo de custodia física, es decir, dónde reside principalmente el menor y cuándo pasa tiempo con el otro padre o madre."
                 },
                 {
                   "type": "text",
                   "items": [],
-                  "text": "**The key thing to understand: you can share one without the other.** It's entirely possible for parents to share joint decision-making authority (conservatorship) while one parent has primary physical custody (possession), or for the visitation schedule to look very different from the decision-making split. Confusing the two — or assuming a 50/50 decision-making role guarantees 50/50 time with the child — is one of the most common misunderstandings parents bring into a custody case."
+                  "text": "**Los dos arreglos pueden repartirse de manera distinta.** Ambos padres pueden compartir la autoridad para tomar decisiones mientras uno tiene la custodia física principal. El horario de visitas también puede repartirse de forma distinta a la autoridad para decidir. Uno de los malentendidos más frecuentes es pensar que compartir por igual la toma de decisiones garantiza pasar el mismo tiempo con el menor."
                 }
               ]
             },
             {
-              "heading": "Your Relationship With Your Child Is Worth Fighting For",
+              "heading": "Su relación con su hijo merece que la defienda",
               "blocks": [
                 {
                   "type": "text",
                   "items": [],
-                  "text": "Custody cases are emotional, high-stakes, and often confusing to navigate alone. Understanding these 12 factors is a starting point — but every case is different, and how you present your circumstances matters."
+                  "text": "Los casos de custodia pueden ser emocionalmente difíciles, tienen consecuencias importantes y suelen ser complicados de afrontar sin ayuda. Estos 12 factores son un punto de partida. Cada caso es distinto y la forma de presentar sus circunstancias puede influir en el resultado."
                 },
                 {
                   "type": "text",
                   "items": [],
-                  "text": "Our Texas family law attorneys help parents navigate custody with strategy, not just hope."
+                  "text": "Nuestros abogados de derecho familiar en Texas ayudan a los padres a preparar una estrategia para su caso de custodia."
                 }
               ]
             }
           ],
           "cta": {
-            "title": "Schedule a confidential consultation.",
+            "title": "Programe una consulta confidencial.",
             "paragraphs": [
-              "If you're preparing for a custody case in Texas, don't walk into that hearing without knowing what the court is looking for. Contact Hirani Law Firm today to schedule a consultation.",
+              "Si se está preparando para un caso de custodia en Texas, averigüe qué considera el tribunal antes de acudir a la audiencia. Comuníquese hoy con Hirani Law Firm para programar una consulta.",
               "**281-665-8188**",
-              "**Katy & Houston, Texas**",
+              "**Katy y Houston, Texas**",
               "**hiranilawfirm.com**"
             ]
           },
           "faqs": [
             {
-              "question": "What factors do Texas judges consider in child custody cases?",
-              "answer": "Texas judges weigh 12 key factors across three categories: the child's needs and relationships (emotional/physical needs, relationships with parents and siblings, and the child's own preference if age-appropriate), each parent's situation (home stability, parenting skills, work schedule, and geographic proximity), and safety and co-parenting ability (history of abuse, substance abuse, false allegations, and willingness to support the other parent's relationship with the child)."
+              "question": "¿Qué factores consideran los jueces de Texas en los casos de custodia infantil?",
+              "answer": "Los jueces de Texas evalúan 12 factores en tres grupos: las necesidades y relaciones del menor (necesidades emocionales y físicas, relaciones con sus padres y hermanos y su preferencia si su edad lo permite), la situación de cada padre o madre (estabilidad del hogar, habilidades de crianza, horario de trabajo y cercanía entre las viviendas) y la seguridad y capacidad de colaborar en la crianza (antecedentes de maltrato, abuso de sustancias, acusaciones falsas y disposición a apoyar la relación del menor con el otro padre o madre)."
             },
             {
-              "question": "What is the \"best interest of the child\" standard in Texas?",
-              "answer": "This is the legal standard Texas courts use to make custody decisions. Rather than a fixed formula, judges consider a range of factors — including the 12 listed above — to determine which arrangement best supports the child's wellbeing."
+              "question": "¿Qué significa el criterio del \"interés superior del menor\" en Texas?",
+              "answer": "Es el criterio legal que usan los tribunales de Texas para decidir sobre la custodia. Los jueces evalúan diferentes factores, incluidos los 12 mencionados aquí, para determinar qué arreglo favorece más el bienestar del menor."
             },
             {
-              "question": "Can a child choose which parent to live with in Texas?",
-              "answer": "A child who is 12 or older can request to speak with the judge about their custody preference. However, this is only one factor among many and is not the deciding factor in the court's decision."
+              "question": "¿Puede un menor elegir con cuál de sus padres vivir en Texas?",
+              "answer": "Un menor de 12 años o más puede pedir hablar con el juez sobre su preferencia de custodia. El tribunal considera esa preferencia junto con otros factores al tomar su decisión."
             },
             {
-              "question": "What's the difference between conservatorship and possession in Texas?",
-              "answer": "Conservatorship refers to legal decision-making authority over things like education, healthcare, and religion. Possession refers to where the child physically lives and the visitation schedule. Parents can share one without sharing the other."
+              "question": "¿Cuál es la diferencia entre la tutela legal y la posesión en Texas?",
+              "answer": "La tutela legal se refiere a la autoridad para tomar decisiones sobre asuntos como la educación, la atención médica y la religión. La posesión se refiere a dónde vive el menor y al horario de visitas. Los padres pueden compartir uno de estos arreglos y distribuir el otro de manera diferente."
             },
             {
-              "question": "Does a history of domestic violence affect custody in Texas?",
-              "answer": "Yes. A documented history of domestic violence or abuse is a significant factor that can limit or restrict a parent's custody or visitation rights."
+              "question": "¿Influyen los antecedentes de violencia familiar en la custodia en Texas?",
+              "answer": "Sí. Los antecedentes documentados de violencia familiar o maltrato son un factor importante que puede limitar los derechos de custodia o visita de un padre o una madre."
             },
             {
-              "question": "What happens if a parent makes false allegations during a custody case?",
-              "answer": "Texas courts take false allegations seriously. Making unfounded claims against the other parent to gain an advantage can damage the accusing parent's credibility and negatively affect their case."
+              "question": "¿Qué sucede si un padre o una madre hace acusaciones falsas durante un caso de custodia?",
+              "answer": "Los tribunales de Texas toman en serio las acusaciones falsas. Hacer afirmaciones infundadas contra el otro padre o madre para obtener ventaja puede perjudicar la credibilidad de quien las hace y afectar su caso."
             }
           ]
         }
       },
       {
         "slug": "texas-divorce-property-division",
-        "title": "Getting Divorced in Texas? Here's How Property and Debt Get Divided",
-        "excerpt": "Texas is a community property state — here's what that means for your assets, debts, and what might be protected in a divorce. Schedule a consultation with a family law attorney.",
+        "title": "¿Se va a divorciar en Texas? Así se dividen los bienes y las deudas",
+        "excerpt": "Texas aplica un régimen de bienes gananciales. Conozca qué significa para sus bienes y deudas, y qué bienes podrían quedar protegidos en un divorcio. Programe una consulta con un abogado de derecho familiar.",
         "date": "25 de septiembre de 2026",
         "dateISO": "2026-09-25",
-        "metaTitle": "Getting Divorced in Texas? How Property & Debt Get Divided",
-        "category": "Family Law",
+        "metaTitle": "Cómo se dividen los bienes y las deudas en un divorcio en Texas",
+        "category": "Derecho familiar",
         "image": "/images/hirani/blog-texas-divorce-property-division.webp",
-        "imageAlt": "Couple reviewing and signing a divorce settlement agreement — Texas property and debt division",
+        "imageAlt": "Pareja que revisa y firma un acuerdo de divorcio sobre la división de bienes y deudas en Texas",
         "content": {
           "intro": [
-            "Divorce is stressful enough without wondering what happens to your house, your savings, or the debt on your joint credit card. In Texas, the rules around who gets what are different from many other states — and understanding them before you agree to anything can make a significant difference in your outcome."
+            "Un divorcio ya es lo bastante estresante como para tener que preguntarse qué pasará con su casa, sus ahorros o la deuda de una tarjeta de crédito conjunta. Las reglas de Texas sobre el reparto de bienes difieren de las de muchos otros estados. Entenderlas antes de aceptar un acuerdo puede influir considerablemente en el resultado."
           ],
           "sections": [
             {
-              "heading": "Texas Is a Community Property State",
+              "heading": "Texas aplica un régimen de bienes gananciales",
               "blocks": [
                 {
                   "type": "text",
                   "items": [],
-                  "text": "Texas follows **community property law**, which means most assets and debts acquired during the marriage are considered to belong equally to both spouses — regardless of whose name is on the account, the title, or the loan."
+                  "text": "Texas se rige por la **ley de bienes gananciales**. La mayoría de los bienes y deudas adquiridos durante el matrimonio se consideran de ambos cónyuges por igual, independientemente de quién figure en la cuenta, el título de propiedad o el préstamo."
                 },
                 {
                   "type": "text",
                   "items": [],
-                  "text": "This surprises a lot of people. Even if you opened a credit card in your own name, or a bank account only you deposit into, it can still be classified as community property if it was acquired during the marriage."
+                  "text": "Esto sorprende a muchas personas. Una tarjeta de crédito a su nombre o una cuenta bancaria en la que solo usted deposita dinero puede formar parte del patrimonio común si se abrió durante el matrimonio."
                 }
               ]
             },
             {
-              "heading": "What Gets Divided? More Than You Might Think",
+              "heading": "¿Qué se divide? Más de lo que podría imaginar",
               "blocks": [
                 {
                   "type": "text",
                   "items": [],
-                  "text": "Community property division typically covers:"
+                  "text": "La división de bienes gananciales suele abarcar:"
                 },
                 {
                   "type": "list",
                   "items": [
-                    "**Income earned during the marriage**",
-                    "**The family home**",
-                    "**Retirement accounts & 401(k)s**",
-                    "**Business interests & investments**",
-                    "**Credit card & loan debt**"
+                    "**Ingresos obtenidos durante el matrimonio**",
+                    "**La vivienda familiar**",
+                    "**Cuentas de jubilación y planes 401(k)**",
+                    "**Participaciones en empresas e inversiones**",
+                    "**Deudas de tarjetas de crédito y préstamos**"
                   ],
                   "text": ""
                 },
                 {
                   "type": "text",
                   "items": [],
-                  "text": "Retirement accounts and business interests are often the most overlooked — and the most contested — because their value isn't always obvious without a proper valuation."
+                  "text": "Las cuentas de jubilación y las participaciones en empresas suelen pasarse por alto y pueden dar lugar a las mayores disputas, porque su valor puede ser difícil de determinar sin una tasación adecuada."
                 }
               ]
             },
             {
-              "heading": "What May Be Protected: Not Everything Is Up for Grabs",
+              "heading": "Qué bienes pueden quedar protegidos",
               "blocks": [
                 {
                   "type": "text",
                   "items": [],
-                  "text": "Texas law does recognize separate property, which generally is not subject to division. This can include:"
+                  "text": "La ley de Texas reconoce los bienes propios, que por lo general quedan excluidos de la división. Entre ellos pueden estar:"
                 },
                 {
                   "type": "list",
                   "items": [
-                    "**Property owned before you married**",
-                    "**Gifts received during the marriage**",
-                    "**Inheritances left to one spouse**",
-                    "**Anything covered by a valid prenup**"
+                    "**Bienes que ya poseía antes de casarse**",
+                    "**Regalos recibidos durante el matrimonio**",
+                    "**Herencias dejadas a uno de los cónyuges**",
+                    "**Bienes cubiertos por un acuerdo prenupcial válido**"
                   ],
                   "text": ""
                 },
                 {
                   "type": "text",
                   "items": [],
-                  "text": "That said, separate property can lose its protected status if it becomes \"commingled\" with community property — for example, depositing inheritance funds into a joint account. Keeping clear records matters."
+                  "text": "Los bienes propios pueden perder su protección si se mezclan con los bienes gananciales. Un ejemplo es depositar el dinero de una herencia en una cuenta conjunta. Conviene guardar registros claros."
                 }
               ]
             },
             {
-              "heading": "Know What You're Entitled to Before You Agree to Anything",
+              "heading": "Conozca qué le corresponde antes de aceptar un acuerdo",
               "blocks": [
                 {
                   "type": "text",
                   "items": [],
-                  "text": "Property division in a Texas divorce isn't always a simple 50/50 split, and it's easy to accept less than you're entitled to — or take on more debt than you should — without realizing it. Before signing any agreement, it's worth understanding exactly what's on the table."
+                  "text": "En un divorcio en Texas, el reparto de bienes puede ser más complejo que dividir todo por mitades. Sin darse cuenta, puede aceptar menos de lo que le corresponde o asumir más deuda de la que debería. Antes de firmar un acuerdo, conviene saber exactamente qué se está negociando."
                 },
                 {
                   "type": "text",
                   "items": [],
-                  "text": "At Hirani Law Firm, our family law attorney will review your situation and give you clear, honest answers about what you're entitled to."
+                  "text": "En Hirani Law Firm, nuestra abogada de derecho familiar revisará su situación y le explicará con claridad qué le corresponde."
                 }
               ]
             }
           ],
           "cta": {
-            "title": "Schedule a consultation.",
+            "title": "Programe una consulta.",
             "paragraphs": [
-              "If you're facing a divorce in Texas, don't navigate property and debt division without knowing your rights. Contact Hirani Law Firm today to schedule a consultation."
+              "Si se enfrenta a un divorcio en Texas, conozca sus derechos antes de negociar la división de los bienes y las deudas. Comuníquese hoy con Hirani Law Firm para programar una consulta."
             ]
           },
           "faqs": [
             {
-              "question": "Is Texas a community property state?",
-              "answer": "Yes. In Texas, most assets and debts acquired during the marriage are considered community property, owned equally by both spouses, regardless of whose name is on the account or title."
+              "question": "¿Aplica Texas un régimen de bienes gananciales?",
+              "answer": "Sí. En Texas, la mayoría de los bienes y las deudas adquiridos durante el matrimonio se consideran bienes gananciales y pertenecen a ambos cónyuges por igual, independientemente de quién figure en la cuenta o en el título de propiedad."
             },
             {
-              "question": "What property is divided in a Texas divorce?",
-              "answer": "Community property division can include income earned during the marriage, the family home, retirement accounts and 401(k)s, business interests and investments, and credit card or loan debt."
+              "question": "¿Qué bienes se dividen en un divorcio en Texas?",
+              "answer": "La división de bienes gananciales puede incluir los ingresos obtenidos durante el matrimonio, la vivienda familiar, las cuentas de jubilación y los planes 401(k), las participaciones en empresas y las inversiones, y las deudas de tarjetas de crédito o préstamos."
             },
             {
-              "question": "What property is protected from division in a Texas divorce?",
-              "answer": "Separate property is generally protected, including property owned before the marriage, gifts received during the marriage, inheritances left to one spouse, and anything covered by a valid prenuptial agreement."
+              "question": "¿Qué bienes quedan protegidos en un divorcio en Texas?",
+              "answer": "Los bienes propios suelen quedar protegidos. Entre ellos están los bienes que ya se poseían antes del matrimonio, los regalos recibidos durante el matrimonio, las herencias dejadas a uno de los cónyuges y los bienes cubiertos por un acuerdo prenupcial válido."
             },
             {
-              "question": "Can separate property become community property in Texas?",
-              "answer": "Yes. Separate property can lose its protected status if it becomes commingled with community property — for example, mixing inheritance funds into a joint bank account."
+              "question": "¿Pueden los bienes propios convertirse en bienes gananciales en Texas?",
+              "answer": "Sí. Los bienes propios pueden perder su protección si se mezclan con los gananciales, por ejemplo, al depositar el dinero de una herencia en una cuenta conjunta."
             },
             {
-              "question": "Do I need a lawyer to divide property in a Texas divorce?",
-              "answer": "While not legally required, a family law attorney can help ensure you understand what you're entitled to and don't unknowingly accept an unfair settlement. Hirani Law Firm offers a consultation to review your situation."
+              "question": "¿Necesito un abogado para dividir los bienes en un divorcio en Texas?",
+              "answer": "La ley no lo exige, pero un abogado de derecho familiar puede ayudarle a entender qué le corresponde y a evitar que acepte por desconocimiento un acuerdo injusto. Hirani Law Firm ofrece consultas para revisar su situación."
             }
           ]
         }
       },
       {
         "slug": "car-accident-texas-what-to-do",
-        "title": "Injured in a Car Accident in Texas? Here's What to Do in the First 72 Hours",
-        "excerpt": "Been in a car accident in Texas? Learn the 4 critical steps to take in the first 72 hours to protect your health and your legal claim. Request a consultation. No fees unless we win.",
+        "title": "¿Sufrió lesiones en un accidente de auto en Texas? Qué hacer en las primeras 72 horas",
+        "excerpt": "¿Tuvo un accidente de auto en Texas? Conozca los cuatro pasos más importantes de las primeras 72 horas para proteger su salud y su reclamación. Solicite una consulta. Solo cobramos honorarios si ganamos su caso.",
         "date": "25 de septiembre de 2026",
         "dateISO": "2026-09-25",
-        "metaTitle": "Injured in a Car Accident in Texas? 4 Steps to Protect Your Case",
-        "category": "Personal Injury",
+        "metaTitle": "Accidentes de auto en Texas: 4 pasos para proteger su caso",
+        "category": "Lesiones personales",
         "image": "/images/hirani/blog-texas-car-accident.webp",
-        "imageAlt": "Two-car collision with an overturned SUV — what to do after a car accident in Texas",
+        "imageAlt": "Choque de dos vehículos con una camioneta SUV volcada, en un artículo sobre qué hacer tras un accidente de auto en Texas",
         "content": {
           "intro": [
-            "Car accidents happen fast — but what you do in the hours and days afterward can determine whether you receive full compensation or nothing at all. Insurance companies look for any excuse to reduce or deny a claim, and small mistakes made in the immediate aftermath of a crash are often the reason valid claims get denied.",
-            "If you've been injured in a car accident in Texas, here are the four steps that matter most."
+            "Un accidente de auto puede ocurrir en segundos. Lo que haga en las horas y días siguientes puede determinar si recibe una indemnización completa o se queda sin compensación. Las aseguradoras buscan motivos para reducir o rechazar las reclamaciones. Los errores cometidos justo después de un choque suelen ser el motivo por el que se rechazan reclamaciones válidas.",
+            "Si sufrió lesiones en un accidente de auto en Texas, estos son los cuatro pasos más importantes."
           ],
           "sections": [
             {
-              "heading": "Step 1: Call 911 Immediately",
+              "heading": "Paso 1: Llame al 911 de inmediato",
               "blocks": [
                 {
                   "type": "text",
                   "items": [],
-                  "text": "Even if the accident seems minor, call 911 and get a police report filed at the scene."
+                  "text": "Aunque el accidente parezca menor, llame al 911 y procure que la policía levante un informe en el lugar del choque."
                 },
                 {
                   "type": "text",
                   "items": [],
-                  "text": "**Why it matters:** No official report means no official record — and insurance companies can and will use the absence of a police report against you when disputing a claim. A police report creates a neutral, timestamped account of what happened, which becomes critical evidence later."
+                  "text": "**Por qué importa:** El informe policial deja constancia oficial e imparcial de lo ocurrido, con la fecha y la hora, y puede servir como prueba más adelante. Si la aseguradora impugna la reclamación, puede usar la falta de un informe en su contra."
                 }
               ]
             },
             {
-              "heading": "Step 2: See a Doctor Within 24–48 Hours",
+              "heading": "Paso 2: Consulte a un médico en un plazo de 24 a 48 horas",
               "blocks": [
                 {
                   "type": "text",
                   "items": [],
-                  "text": "Adrenaline masks pain. It's common to feel \"fine\" right after a crash and then develop symptoms of whiplash or internal injuries days later."
+                  "text": "La adrenalina puede ocultar el dolor. Es común sentirse \"bien\" justo después de un choque y presentar días más tarde síntomas de una lesión cervical por latigazo o de lesiones internas."
                 },
                 {
                   "type": "text",
                   "items": [],
-                  "text": "**Why it matters:** Delaying medical care doesn't just put your health at risk — it gives insurance companies a reason to argue your injuries weren't caused by the accident, or weren't serious to begin with. A prompt medical record links your injury directly to the crash."
+                  "text": "**Por qué importa:** Demorar la atención médica pone en riesgo su salud y puede dar a la aseguradora un argumento para afirmar que las lesiones no se debieron al accidente o que nunca fueron graves. Un registro médico oportuno ayuda a vincular la lesión con el choque."
                 }
               ]
             },
             {
-              "heading": "Steps 3 & 4: Protect Your Case",
+              "heading": "Pasos 3 y 4: Proteja su caso",
               "blocks": [
                 {
                   "type": "text",
                   "items": [],
-                  "text": "Once you and everyone involved are safe, take these actions to preserve your ability to recover full compensation:"
+                  "text": "Cuando usted y las demás personas involucradas estén a salvo, tome estas medidas para proteger su posibilidad de obtener una indemnización completa:"
                 },
                 {
                   "type": "list",
                   "items": [
-                    "Take photos of the scene, vehicles, injuries, and road conditions",
-                    "Collect witness names and contact information",
-                    "Save all medical records and documents",
-                    "**Do NOT** give a recorded statement to the insurance company",
-                    "**Do NOT** accept any settlement offer without an attorney"
+                    "Tome fotos del lugar, de los vehículos, de las lesiones y del estado de la vía",
+                    "Anote los nombres y datos de contacto de los testigos",
+                    "Guarde todos los expedientes y documentos médicos",
+                    "**No dé** una declaración grabada a la aseguradora",
+                    "**No acepte** una oferta de indemnización sin consultar a un abogado"
                   ],
                   "text": ""
                 },
                 {
                   "type": "text",
                   "items": [],
-                  "text": "Insurance adjusters are trained to get recorded statements and early settlement offers that minimize what they have to pay. Once you accept an offer, you typically can't go back for more — even if your injuries turn out to be worse than expected."
+                  "text": "Los ajustadores de seguros están capacitados para conseguir declaraciones grabadas y ofrecer acuerdos rápidos que reduzcan lo que debe pagar la aseguradora. Una vez que acepta una oferta, normalmente ya no podrá pedir una indemnización adicional, aunque las lesiones resulten más graves de lo previsto."
                 }
               ]
             },
             {
-              "heading": "You Don't Have to Face This Alone",
+              "heading": "Puede contar con ayuda",
               "blocks": [
                 {
                   "type": "text",
                   "items": [],
-                  "text": "Recovering from a car accident is stressful enough without having to fight an insurance company by yourself. At Hirani Law Firm, our attorneys fight to recover full compensation for:"
+                  "text": "Recuperarse de un accidente de auto ya es lo bastante estresante sin tener que enfrentarse a una aseguradora por su cuenta. En Hirani Law Firm, nuestros abogados buscan una indemnización completa por:"
                 },
                 {
                   "type": "list",
                   "items": [
-                    "Medical bills",
-                    "Lost wages",
-                    "Pain and suffering"
+                    "Gastos médicos",
+                    "Ingresos perdidos",
+                    "Dolor y sufrimiento"
                   ],
                   "text": ""
                 }
@@ -4251,31 +4251,31 @@
             }
           ],
           "cta": {
-            "title": "Schedule a consultation. No fees unless we win.",
+            "title": "Programe una consulta. Solo cobramos honorarios si ganamos su caso.",
             "paragraphs": [
-              "If you or a loved one has been injured in a car accident in Texas, don't wait for the insurance company to make the first move. Contact Hirani Law Firm today for a case review."
+              "Si usted o un ser querido sufrió lesiones en un accidente de auto en Texas, tome la iniciativa antes de que se comunique la aseguradora. Contacte hoy a Hirani Law Firm para que revisemos su caso."
             ]
           },
           "faqs": [
             {
-              "question": "What should I do immediately after a car accident in Texas?",
-              "answer": "Call 911 to report the accident and ensure a police report is filed, even if the accident seems minor. This creates an official record that protects you if the insurance company later disputes your claim."
+              "question": "¿Qué debo hacer inmediatamente después de un accidente de auto en Texas?",
+              "answer": "Llame al 911 para reportar el accidente y procure que la policía levante un informe, aunque el choque parezca menor. Así quedará un registro oficial que puede protegerle si la aseguradora impugna su reclamación más adelante."
             },
             {
-              "question": "How soon after a car accident should I see a doctor?",
-              "answer": "Within 24–48 hours. Adrenaline can mask pain and injuries like whiplash or internal trauma often don't show symptoms right away. Prompt medical treatment also links your injuries directly to the accident in your medical record."
+              "question": "¿Cuánto tiempo tengo para consultar a un médico después de un accidente de auto?",
+              "answer": "Consulte a un médico en un plazo de 24 a 48 horas. La adrenalina puede ocultar el dolor y los síntomas de lesiones como el latigazo cervical o las lesiones internas pueden aparecer más tarde. Recibir atención médica pronto también permite dejar constancia de la relación entre su lesión y el accidente."
             },
             {
-              "question": "Should I give a recorded statement to the insurance company?",
-              "answer": "No. Insurance companies use recorded statements to find ways to reduce or deny your claim. Speak with a personal injury attorney before providing any statement."
+              "question": "¿Debo dar una declaración grabada a la aseguradora?",
+              "answer": "No. Las aseguradoras usan las declaraciones grabadas para buscar motivos para reducir o rechazar su reclamación. Consulte a un abogado de lesiones personales antes de dar cualquier declaración."
             },
             {
-              "question": "Should I accept a settlement offer from the insurance company?",
-              "answer": "Not without consulting an attorney first. Early settlement offers are often far lower than what you're actually entitled to, and once accepted, you typically cannot seek additional compensation later."
+              "question": "¿Debo aceptar una oferta de indemnización de la aseguradora?",
+              "answer": "Consulte primero a un abogado. Las primeras ofertas suelen ser muy inferiores a la indemnización que podría corresponderle. Una vez que acepta, por lo general no puede pedir una compensación adicional más adelante."
             },
             {
-              "question": "Does Hirani Law Firm charge upfront fees?",
-              "answer": "No. Hirani Law Firm offers a consultation and works on a contingency basis — there are no fees unless they win your case."
+              "question": "¿Cobra Hirani Law Firm honorarios por adelantado?",
+              "answer": "No. Hirani Law Firm ofrece consultas y trabaja con honorarios de contingencia. Solo cobra honorarios si gana su caso."
             }
           ]
         }
@@ -5096,9 +5096,9 @@
         "jsonLd": "{\"@context\":\"https://schema.org\",\"@type\":\"FAQPage\",\"mainEntity\":[{\"@type\":\"Question\",\"name\":\"¿Cuál es la diferencia entre un divorcio contencioso y uno de mutuo acuerdo?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Un divorcio de mutuo acuerdo es aquel en que ambos cónyuges están de acuerdo en todos los asuntos principales, como la división de bienes, la custodia de los hijos y la manutención. Generalmente es más rápido y menos costoso. Un divorcio contencioso ocurre cuando los cónyuges no pueden ponerse de acuerdo en uno o más asuntos, lo que requiere negociación, mediación o incluso un juicio para resolver las disputas.\"}},{\"@type\":\"Question\",\"name\":\"¿Cómo se dividen los bienes en un divorcio en Texas? ¿Siempre es 50/50?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Texas es un estado de community property, lo que significa que la mayoría de los bienes y deudas adquiridos durante el matrimonio pertenecen a ambos cónyuges. Sin embargo, la división no es automáticamente 50/50. Un juez dividirá los bienes de manera \\\"justa y correcta\\\", lo que puede verse influenciado por factores como la culpa en la ruptura del matrimonio, la disparidad en el poder adquisitivo y las necesidades de los hijos.\"}},{\"@type\":\"Question\",\"name\":\"¿Qué es la manutención conyugal (alimony), y quién tiene derecho a recibirla en Texas?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"La manutención conyugal, o alimony, es un pago ordenado por la corte de un cónyuge al otro después del divorcio. En Texas, no se otorga en todos los casos. Un juez puede otorgarla si el matrimonio duró 10 años o más y el cónyuge solicitante no puede generar ingresos suficientes, o en casos que involucren violencia familiar.\"}},{\"@type\":\"Question\",\"name\":\"¿Cuánto tiempo tarda un divorcio en Texas?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Texas tiene un período de espera obligatorio de 60 días después de que se presenta la petition de divorcio. Un divorcio de mutuo acuerdo puede finalizarse poco después de este período. Un divorcio contencioso puede tardar varios meses o más de un año en resolverse, dependiendo de la complejidad y el nivel de conflicto.\"}},{\"@type\":\"Question\",\"name\":\"¿Necesito un abogado para un divorcio amistoso o de mutuo acuerdo?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Sí, es muy recomendable. Incluso si usted y su cónyuge están de acuerdo en todo, una abogada garantiza que sus derechos estén protegidos y que el decreto de divorcio final esté redactado correctamente y presentado adecuadamente. Los errores en los documentos pueden generar problemas legales y financieros significativos en el futuro.\"}},{\"@type\":\"Question\",\"name\":\"¿Cuál es la diferencia entre \\\"custodia\\\" y \\\"tutela\\\" en Texas?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"En Texas, el término legal para la custodia es \\\"tutela.\\\" Define los derechos y responsabilidades legales de un padre. Aunque las personas suelen usar el término \\\"custodia,\\\" todas las órdenes judiciales oficiales se referirán a los padres como \\\"conservadores.\\\"\"}},{\"@type\":\"Question\",\"name\":\"¿Cómo deciden los tribunales de Texas quién obtiene la custodia? ¿Qué es el \\\"mejor interés del menor\\\"?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"La única consideración del tribunal es el \\\"mejor interés del menor.\\\" Un juez evaluará muchos factores, incluyendo las necesidades emocionales y físicas del niño, la estabilidad del hogar de cada padre, la capacidad de cada padre para cuidar al niño y cualquier historial de conflicto o abuso.\"}},{\"@type\":\"Question\",\"name\":\"¿Los tribunales de Texas favorecen a las madres sobre los padres?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"No. La ley en Texas es explícitamente neutral en cuanto al género. Los padres tienen los mismos derechos legales que las madres, y el tribunal no puede usar el género como factor en su decisión. El resultado se basa únicamente en lo que es mejor para el niño.\"}},{\"@type\":\"Question\",\"name\":\"¿Qué es una orden estándar de posesión?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"La orden estándar de posesión es un horario de tiempo con los hijos (visitas) predeterminado que se presume está en el mejor interés del niño. Describe un horario detallado para fines de semana, días festivos y vacaciones de verano para el padre no custodio.\"}},{\"@type\":\"Question\",\"name\":\"¿Cómo puedo modificar mi orden actual de custodia o visitas?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Para modificar una orden, debe presentar una petition formal ante el tribunal y demostrar que ha habido un \\\"cambio material y sustancial\\\" en las circunstancias de los padres o del niño desde que se firmó la última orden.\"}},{\"@type\":\"Question\",\"name\":\"¿Cómo se calcula la manutención de menores en Texas?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"La manutención de menores se calcula usando las directrices estatales, que se basan en un porcentaje de los recursos netos mensuales del padre que paga. El porcentaje cambia según el número de hijos. Para un hijo es el 20%; para dos es el 25%, y así sucesivamente.\"}},{\"@type\":\"Question\",\"name\":\"¿Qué hago si el otro padre deja de pagar la manutención de menores?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Debe contactar a una abogada de inmediato para presentar una acción de ejecución. Un juez puede obligar al otro padre a pagar lo que debe e imponer sanciones, incluidas multas e incluso tiempo en prisión.\"}},{\"@type\":\"Question\",\"name\":\"¿Puede cambiar el monto de la manutención de menores si cambia mi ingreso?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Sí. Si usted o el otro padre ha experimentado un cambio significativo en los ingresos (ya sea un aumento o una disminución), puede solicitar al tribunal que modifique la orden de manutención de menores para reflejar la nueva realidad financiera.\"}},{\"@type\":\"Question\",\"name\":\"¿Cuánto tiempo dura la manutención de menores en Texas?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Típicamente, la manutención de menores continúa hasta que el niño cumple 18 años o se gradúa de la preparatoria, lo que ocurra después. La manutención puede extenderse indefinidamente si el niño tiene una discapacidad calificada.\"}},{\"@type\":\"Question\",\"name\":\"¿Cuáles son mis derechos si un trabajador de DFPS llega a mi puerta?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Tiene el derecho de no dejarlos entrar a su hogar sin una orden judicial. Tiene el derecho de guardar silencio y el derecho a un abogado. Es crucial ser cortés pero firme y llamar a una abogada de inmediato antes de responder cualquier pregunta.\"}},{\"@type\":\"Question\",\"name\":\"¿Tengo que firmar un Plan de Seguridad de DFPS?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"No, y no debe firmar ningún documento de DFPS sin antes consultar con una abogada. Estos planes a menudo le exigen renunciar a derechos legales significativos y pueden ser usados en su contra en el tribunal.\"}},{\"@type\":\"Question\",\"name\":\"¿Puede DFPS llevarse a mis hijos sin una orden judicial?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Solo en emergencias muy raras donde crean que un niño está en peligro inmediato e inminente. En casi todos los demás casos, deben obtener una orden judicial para retirar legalmente a un niño de su hogar.\"}},{\"@type\":\"Question\",\"name\":\"¿Cómo puedo combatir las falsas acusaciones de DFPS?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"La mejor manera de combatir falsas acusaciones es contratar de inmediato a una abogada con experiencia en defensa ante DFPS. Su abogada cuestionará las pruebas, presentará su versión de los hechos y exigirá que DFPS cumpla con el alto estándar legal requerido para interferir con su familia.\"}},{\"@type\":\"Question\",\"name\":\"¿Qué debo hacer inmediatamente después de un accidente de auto?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Primero, asegúrese de que todos estén seguros y busque atención médica, incluso para lesiones aparentemente menores. Segundo, llame a la policía para crear un informe oficial. Tercero, documente la escena tomando fotos de los vehículos, el área y sus lesiones. Finalmente, no admita culpa y contacte a una abogada de lesiones personales antes de hablar con ninguna aseguradora.\"}},{\"@type\":\"Question\",\"name\":\"¿Cuánto tiempo tengo para presentar una reclamación por lesiones personales en Texas?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"En Texas, el plazo de prescripción para la mayoría de las reclamaciones por lesiones personales es de dos años a partir de la fecha de la lesión. Si no presenta una demanda dentro de este plazo, probablemente perderá su derecho a recibir cualquier compensación.\"}},{\"@type\":\"Question\",\"name\":\"¿Qué evidencia es más importante para mi reclamación por lesiones personales?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"La evidencia clave incluye el informe policial, fotos y videos de la escena del accidente y sus lesiones, información de contacto de cualquier testigo, todos sus registros médicos y facturas, y documentación de cualquier salario perdido.\"}},{\"@type\":\"Question\",\"name\":\"¿Debo hablar con la aseguradora de la otra parte?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"No se recomienda. El ajustador de seguros de la otra parte está entrenado para hacer que usted diga cosas que pueden perjudicar su reclamación. Siempre es mejor dejar que su abogada maneje toda la comunicación con las aseguradoras.\"}},{\"@type\":\"Question\",\"name\":\"¿Cuánto vale mi caso de lesiones personales?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"El valor de su caso depende de muchos factores, incluyendo la gravedad de sus lesiones, el costo total de su tratamiento médico, la cantidad de ingresos perdidos y el impacto en su calidad de vida. Una abogada con experiencia puede evaluar estos factores para darle una estimación del valor de su caso.\"}},{\"@type\":\"Question\",\"name\":\"¿Qué tipos de daños puedo recuperar?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Puede recuperar daños \\\"económicos,\\\" como facturas médicas y salarios perdidos, y daños \\\"no económicos,\\\" como compensación por dolor y sufrimiento, angustia emocional y discapacidad física.\"}},{\"@type\":\"Question\",\"name\":\"¿Cómo cobra una abogada de lesiones personales?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"La mayoría de las abogadas de lesiones personales, incluida Hirani Law Firm, trabajan en base a honorarios condicionales. Esto significa que solo cobramos si ganamos su caso, ya sea mediante un acuerdo o un veredicto judicial. Nuestra tarifa es un porcentaje de la recuperación total, por lo que usted no paga nada por adelantado.\"}},{\"@type\":\"Question\",\"name\":\"¿Mi caso irá a juicio o se resolverá mediante acuerdo?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"La gran mayoría de los casos de lesiones personales se resuelven mediante un acuerdo con la aseguradora. Sin embargo, si la aseguradora se niega a hacer una oferta justa, siempre estamos preparados para llevar su caso a juicio para luchar por la compensación que merece.\"}},{\"@type\":\"Question\",\"name\":\"¿Cuánto tiempo tarda en resolverse un caso de lesiones personales?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"El plazo varía. Un caso sencillo que se resuelve mediante acuerdo puede finalizarse en cuestión de meses. Un caso más complejo que requiere una demanda y va a juicio puede tardar un año o más.\"}},{\"@type\":\"Question\",\"name\":\"¿Qué pasa si tuve parte de la culpa en el accidente?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Texas sigue la regla de \\\"culpa comparativa modificada.\\\" Esto significa que aún puede recuperar daños siempre que no se le declare 51% o más culpable. Sin embargo, su recuperación se reducirá por su porcentaje de culpa.\"}},{\"@type\":\"Question\",\"name\":\"¿Qué pasa si el conductor culpable no tiene seguro?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Si tiene cobertura de Motorista No Asegurado/Subasegurado (UM/UIM) en su propia póliza de seguro de auto, puede presentar una reclamación con su propia aseguradora para cubrir sus daños.\"}},{\"@type\":\"Question\",\"name\":\"¿Puedo demandar por un accidente de caída en la propiedad de otra persona?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Sí. Los propietarios tienen el deber legal de mantener sus instalaciones razonablemente seguras. Si resultó lesionado debido a una condición insegura que el propietario sabía o debería haber sabido, puede tener una reclamación de responsabilidad de local válida.\"}},{\"@type\":\"Question\",\"name\":\"¿Qué es una reclamación por muerte injusta y quién puede presentarla?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Una reclamación por muerte injusta puede presentarse cuando la muerte de una persona es causada por la negligencia o acto ilícito de otra. En Texas, estas reclamaciones generalmente pueden ser presentadas por el cónyuge sobreviviente, los hijos y los padres del fallecido.\"}}]}"
       },
       "/blog": {
-        "title": "Legal Blog — Texas Family Law & Personal Injury Insights | Hirani Law Firm",
-        "description": "Practical legal guides from Hirani Law Firm on Texas divorce, child custody, property division, and car accident claims. Serving Houston, Katy, and Fort Bend County.",
-        "keywords": "Texas family law blog, Houston divorce lawyer blog, Katy family law attorney, Texas child custody, Texas car accident lawyer, personal injury blog Houston",
+        "title": "Blog jurídico sobre derecho familiar y lesiones personales en Texas | Hirani Law Firm",
+        "description": "Guías prácticas de Hirani Law Firm sobre divorcio, custodia infantil, división de bienes y reclamaciones por accidentes de auto en Texas. Atendemos a clientes en Houston, Katy y el condado de Fort Bend.",
+        "keywords": "blog de derecho familiar en Texas, abogado de divorcio en Houston, abogado de derecho familiar en Katy, custodia infantil en Texas, abogado de accidentes de auto en Texas, blog de lesiones personales en Houston",
         "canonical": "https://www.hiranilawfirm.com/blog",
         "type": "website",
         "image": {
@@ -5110,12 +5110,12 @@
         },
         "article": null,
         "feed": true,
-        "jsonLd": "{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":\"CollectionPage\",\"@id\":\"https://www.hiranilawfirm.com/blog\",\"url\":\"https://www.hiranilawfirm.com/blog\",\"name\":\"Legal Blog — Texas Family Law & Personal Injury Insights\",\"description\":\"Practical legal guides from Hirani Law Firm on Texas divorce, child custody, property division, and car accident claims. Serving Houston, Katy, and Fort Bend County.\",\"inLanguage\":\"en-US\",\"isPartOf\":{\"@type\":\"WebSite\",\"@id\":\"https://www.hiranilawfirm.com/#website\",\"url\":\"https://www.hiranilawfirm.com\",\"name\":\"Hirani Law Firm PLLC\"},\"breadcrumb\":{\"@id\":\"https://www.hiranilawfirm.com/blog#breadcrumb\"},\"mainEntity\":{\"@id\":\"https://www.hiranilawfirm.com/blog#posts\"}},{\"@type\":\"Blog\",\"@id\":\"https://www.hiranilawfirm.com/blog#blog\",\"url\":\"https://www.hiranilawfirm.com/blog\",\"name\":\"Hirani Law Firm Blog\",\"description\":\"Practical legal guides from Hirani Law Firm on Texas divorce, child custody, property division, and car accident claims. Serving Houston, Katy, and Fort Bend County.\",\"publisher\":{\"@id\":\"https://www.hiranilawfirm.com/#organization\"},\"inLanguage\":\"en-US\",\"blogPost\":[{\"@id\":\"https://www.hiranilawfirm.com/blog/texas-child-custody-factors#article\"},{\"@id\":\"https://www.hiranilawfirm.com/blog/texas-divorce-property-division#article\"},{\"@id\":\"https://www.hiranilawfirm.com/blog/car-accident-texas-what-to-do#article\"}]},{\"@type\":\"ItemList\",\"@id\":\"https://www.hiranilawfirm.com/blog#posts\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"item\":{\"@type\":\"BlogPosting\",\"@id\":\"https://www.hiranilawfirm.com/blog/texas-child-custody-factors#article\",\"url\":\"https://www.hiranilawfirm.com/blog/texas-child-custody-factors\",\"headline\":\"12 Factors Texas Judges Consider in Child Custody Cases\",\"description\":\"Facing a custody hearing in Texas? Learn the 12 factors judges weigh, the difference between conservatorship and possession, and how to prepare. Schedule a confidential consultation.\",\"image\":\"https://www.hiranilawfirm.com/og/blog/texas-child-custody-factors.jpg\",\"datePublished\":\"2026-09-25T09:00:00-05:00\",\"dateModified\":\"2026-09-25T09:00:00-05:00\",\"author\":{\"@id\":\"https://www.hiranilawfirm.com/about/sehar-hirani#person\"}}},{\"@type\":\"ListItem\",\"position\":2,\"item\":{\"@type\":\"BlogPosting\",\"@id\":\"https://www.hiranilawfirm.com/blog/texas-divorce-property-division#article\",\"url\":\"https://www.hiranilawfirm.com/blog/texas-divorce-property-division\",\"headline\":\"Getting Divorced in Texas? Here's How Property and Debt Get Divided\",\"description\":\"Texas is a community property state — here's what that means for your assets, debts, and what might be protected in a divorce. Schedule a consultation with a family law attorney.\",\"image\":\"https://www.hiranilawfirm.com/og/blog/texas-divorce-property-division.jpg\",\"datePublished\":\"2026-09-25T09:00:00-05:00\",\"dateModified\":\"2026-09-25T09:00:00-05:00\",\"author\":{\"@id\":\"https://www.hiranilawfirm.com/about/sehar-hirani#person\"}}},{\"@type\":\"ListItem\",\"position\":3,\"item\":{\"@type\":\"BlogPosting\",\"@id\":\"https://www.hiranilawfirm.com/blog/car-accident-texas-what-to-do#article\",\"url\":\"https://www.hiranilawfirm.com/blog/car-accident-texas-what-to-do\",\"headline\":\"Injured in a Car Accident in Texas? Here's What to Do in the First 72 Hours\",\"description\":\"Been in a car accident in Texas? Learn the 4 critical steps to take in the first 72 hours to protect your health and your legal claim. Request a consultation. No fees unless we win.\",\"image\":\"https://www.hiranilawfirm.com/og/blog/car-accident-texas-what-to-do.jpg\",\"datePublished\":\"2026-09-25T09:00:00-05:00\",\"dateModified\":\"2026-09-25T09:00:00-05:00\",\"author\":{\"@id\":\"https://www.hiranilawfirm.com/about/sehar-hirani#person\"}}}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https://www.hiranilawfirm.com/blog#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https://www.hiranilawfirm.com/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Blog\",\"item\":\"https://www.hiranilawfirm.com/blog\"}]},{\"@type\":\"Person\",\"@id\":\"https://www.hiranilawfirm.com/about/sehar-hirani#person\",\"name\":\"Sehar Hirani\",\"url\":\"https://www.hiranilawfirm.com/about/sehar-hirani\",\"jobTitle\":\"Family Law & Personal Injury Attorney\",\"worksFor\":{\"@id\":\"https://www.hiranilawfirm.com/#organization\"},\"sameAs\":[\"https://www.linkedin.com/in/sehar-hirani-3581b687\"]},{\"@type\":\"LegalService\",\"@id\":\"https://www.hiranilawfirm.com/#organization\",\"name\":\"Hirani Law Firm PLLC\",\"url\":\"https://www.hiranilawfirm.com\",\"telephone\":\"281-665-8188\",\"email\":\"info@hiranilawfirm.com\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https://www.hiranilawfirm.com/favicon.png\",\"width\":256,\"height\":256},\"image\":\"https://www.hiranilawfirm.com/og-image.png\",\"areaServed\":[{\"@type\":\"Place\",\"name\":\"Houston, TX\"},{\"@type\":\"Place\",\"name\":\"Katy, TX\"},{\"@type\":\"Place\",\"name\":\"Fort Bend, TX\"},{\"@type\":\"Place\",\"name\":\"Montgomery, TX\"},{\"@type\":\"Place\",\"name\":\"Galveston, TX\"},{\"@type\":\"Place\",\"name\":\"Austin County, TX\"}],\"sameAs\":[\"https://www.facebook.com/Hiranilawfirm/\",\"https://www.instagram.com/hiranilawfirm/\",\"https://www.linkedin.com/in/sehar-hirani-3581b687\",\"https://www.tiktok.com/@hiranilawfirm\"]}]}"
+        "jsonLd": "{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":\"CollectionPage\",\"@id\":\"https://www.hiranilawfirm.com/blog\",\"url\":\"https://www.hiranilawfirm.com/blog\",\"name\":\"Blog jurídico sobre derecho familiar y lesiones personales en Texas\",\"description\":\"Guías prácticas de Hirani Law Firm sobre divorcio, custodia infantil, división de bienes y reclamaciones por accidentes de auto en Texas. Atendemos a clientes en Houston, Katy y el condado de Fort Bend.\",\"inLanguage\":\"es-US\",\"isPartOf\":{\"@type\":\"WebSite\",\"@id\":\"https://www.hiranilawfirm.com/#website\",\"url\":\"https://www.hiranilawfirm.com\",\"name\":\"Hirani Law Firm PLLC\"},\"breadcrumb\":{\"@id\":\"https://www.hiranilawfirm.com/blog#breadcrumb\"},\"mainEntity\":{\"@id\":\"https://www.hiranilawfirm.com/blog#posts\"}},{\"@type\":\"Blog\",\"@id\":\"https://www.hiranilawfirm.com/blog#blog\",\"url\":\"https://www.hiranilawfirm.com/blog\",\"name\":\"Blog de Hirani Law Firm\",\"description\":\"Guías prácticas de Hirani Law Firm sobre divorcio, custodia infantil, división de bienes y reclamaciones por accidentes de auto en Texas. Atendemos a clientes en Houston, Katy y el condado de Fort Bend.\",\"publisher\":{\"@id\":\"https://www.hiranilawfirm.com/#organization\"},\"inLanguage\":\"es-US\",\"blogPost\":[{\"@id\":\"https://www.hiranilawfirm.com/blog/texas-child-custody-factors#article\"},{\"@id\":\"https://www.hiranilawfirm.com/blog/texas-divorce-property-division#article\"},{\"@id\":\"https://www.hiranilawfirm.com/blog/car-accident-texas-what-to-do#article\"}]},{\"@type\":\"ItemList\",\"@id\":\"https://www.hiranilawfirm.com/blog#posts\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"item\":{\"@type\":\"BlogPosting\",\"@id\":\"https://www.hiranilawfirm.com/blog/texas-child-custody-factors#article\",\"url\":\"https://www.hiranilawfirm.com/blog/texas-child-custody-factors\",\"headline\":\"12 factores que los jueces de Texas consideran en casos de custodia infantil\",\"description\":\"¿Tiene una audiencia de custodia en Texas? Conozca los 12 factores que evalúan los jueces, la diferencia entre la tutela legal y la posesión, y cómo prepararse. Programe una consulta confidencial.\",\"image\":\"https://www.hiranilawfirm.com/og/blog/texas-child-custody-factors.jpg\",\"datePublished\":\"2026-09-25T09:00:00-05:00\",\"dateModified\":\"2026-09-25T09:00:00-05:00\",\"author\":{\"@id\":\"https://www.hiranilawfirm.com/about/sehar-hirani#person\"}}},{\"@type\":\"ListItem\",\"position\":2,\"item\":{\"@type\":\"BlogPosting\",\"@id\":\"https://www.hiranilawfirm.com/blog/texas-divorce-property-division#article\",\"url\":\"https://www.hiranilawfirm.com/blog/texas-divorce-property-division\",\"headline\":\"¿Se va a divorciar en Texas? Así se dividen los bienes y las deudas\",\"description\":\"Texas aplica un régimen de bienes gananciales. Conozca qué significa para sus bienes y deudas, y qué bienes podrían quedar protegidos en un divorcio. Programe una consulta con un abogado de derecho familiar.\",\"image\":\"https://www.hiranilawfirm.com/og/blog/texas-divorce-property-division.jpg\",\"datePublished\":\"2026-09-25T09:00:00-05:00\",\"dateModified\":\"2026-09-25T09:00:00-05:00\",\"author\":{\"@id\":\"https://www.hiranilawfirm.com/about/sehar-hirani#person\"}}},{\"@type\":\"ListItem\",\"position\":3,\"item\":{\"@type\":\"BlogPosting\",\"@id\":\"https://www.hiranilawfirm.com/blog/car-accident-texas-what-to-do#article\",\"url\":\"https://www.hiranilawfirm.com/blog/car-accident-texas-what-to-do\",\"headline\":\"¿Sufrió lesiones en un accidente de auto en Texas? Qué hacer en las primeras 72 horas\",\"description\":\"¿Tuvo un accidente de auto en Texas? Conozca los cuatro pasos más importantes de las primeras 72 horas para proteger su salud y su reclamación. Solicite una consulta. Solo cobramos honorarios si ganamos su caso.\",\"image\":\"https://www.hiranilawfirm.com/og/blog/car-accident-texas-what-to-do.jpg\",\"datePublished\":\"2026-09-25T09:00:00-05:00\",\"dateModified\":\"2026-09-25T09:00:00-05:00\",\"author\":{\"@id\":\"https://www.hiranilawfirm.com/about/sehar-hirani#person\"}}}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https://www.hiranilawfirm.com/blog#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Inicio\",\"item\":\"https://www.hiranilawfirm.com/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Blog\",\"item\":\"https://www.hiranilawfirm.com/blog\"}]},{\"@type\":\"Person\",\"@id\":\"https://www.hiranilawfirm.com/about/sehar-hirani#person\",\"name\":\"Sehar Hirani\",\"url\":\"https://www.hiranilawfirm.com/about/sehar-hirani\",\"jobTitle\":\"Abogada de derecho familiar y lesiones personales\",\"worksFor\":{\"@id\":\"https://www.hiranilawfirm.com/#organization\"},\"sameAs\":[\"https://www.linkedin.com/in/sehar-hirani-3581b687\"]},{\"@type\":\"LegalService\",\"@id\":\"https://www.hiranilawfirm.com/#organization\",\"name\":\"Hirani Law Firm PLLC\",\"url\":\"https://www.hiranilawfirm.com\",\"telephone\":\"281-665-8188\",\"email\":\"info@hiranilawfirm.com\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https://www.hiranilawfirm.com/favicon.png\",\"width\":256,\"height\":256},\"image\":\"https://www.hiranilawfirm.com/og-image.png\",\"areaServed\":[{\"@type\":\"Place\",\"name\":\"Houston, TX\"},{\"@type\":\"Place\",\"name\":\"Katy, TX\"},{\"@type\":\"Place\",\"name\":\"Fort Bend, TX\"},{\"@type\":\"Place\",\"name\":\"Montgomery, TX\"},{\"@type\":\"Place\",\"name\":\"Galveston, TX\"},{\"@type\":\"Place\",\"name\":\"Austin County, TX\"}],\"sameAs\":[\"https://www.facebook.com/Hiranilawfirm/\",\"https://www.instagram.com/hiranilawfirm/\",\"https://www.linkedin.com/in/sehar-hirani-3581b687\",\"https://www.tiktok.com/@hiranilawfirm\"]}]}"
       },
       "/blog/texas-child-custody-factors": {
-        "title": "12 Factors Texas Judges Consider in Custody Cases | Hirani Law Firm",
-        "description": "Facing a custody hearing in Texas? Learn the 12 factors judges weigh, the difference between conservatorship and possession, and how to prepare. Schedule a confidential consultation.",
-        "keywords": "Texas child custody factors, best interest of the child Texas, child custody lawyer Houston, Katy child custody attorney, conservatorship vs possession Texas, Texas custody hearing",
+        "title": "12 factores que los jueces de Texas consideran en casos de custodia | Hirani Law Firm",
+        "description": "¿Tiene una audiencia de custodia en Texas? Conozca los 12 factores que evalúan los jueces, la diferencia entre la tutela legal y la posesión, y cómo prepararse. Programe una consulta confidencial.",
+        "keywords": "factores de custodia infantil en Texas, interés superior del menor en Texas, abogado de custodia infantil en Houston, abogado de custodia infantil en Katy, tutela legal y posesión en Texas, audiencia de custodia en Texas",
         "canonical": "https://www.hiranilawfirm.com/blog/texas-child-custody-factors",
         "type": "article",
         "image": {
@@ -5123,29 +5123,29 @@
           "width": 1200,
           "height": 630,
           "type": "image/jpeg",
-          "alt": "Parent holding a young child's hand — Texas child custody factors"
+          "alt": "Una persona adulta toma de la mano a un menor, en referencia a los factores de custodia infantil en Texas"
         },
         "article": {
           "publishedTime": "2026-09-25T09:00:00-05:00",
           "modifiedTime": "2026-09-25T09:00:00-05:00",
           "author": "https://www.hiranilawfirm.com/about/sehar-hirani",
-          "section": "Family Law",
+          "section": "Derecho familiar",
           "tags": [
-            "Texas child custody factors",
-            "best interest of the child Texas",
-            "child custody lawyer Houston",
-            "Katy child custody attorney",
-            "conservatorship vs possession Texas",
-            "Texas custody hearing"
+            "factores de custodia infantil en Texas",
+            "interés superior del menor en Texas",
+            "abogado de custodia infantil en Houston",
+            "abogado de custodia infantil en Katy",
+            "tutela legal y posesión en Texas",
+            "audiencia de custodia en Texas"
           ]
         },
         "feed": true,
-        "jsonLd": "{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https://www.hiranilawfirm.com/blog/texas-child-custody-factors\",\"url\":\"https://www.hiranilawfirm.com/blog/texas-child-custody-factors\",\"name\":\"12 Factors Texas Judges Consider in Custody Cases\",\"description\":\"Facing a custody hearing in Texas? Learn the 12 factors judges weigh, the difference between conservatorship and possession, and how to prepare. Schedule a confidential consultation.\",\"inLanguage\":\"en-US\",\"isPartOf\":{\"@type\":\"WebSite\",\"@id\":\"https://www.hiranilawfirm.com/#website\",\"url\":\"https://www.hiranilawfirm.com\",\"name\":\"Hirani Law Firm PLLC\"},\"primaryImageOfPage\":{\"@id\":\"https://www.hiranilawfirm.com/blog/texas-child-custody-factors#primaryimage\"},\"breadcrumb\":{\"@id\":\"https://www.hiranilawfirm.com/blog/texas-child-custody-factors#breadcrumb\"},\"datePublished\":\"2026-09-25T09:00:00-05:00\",\"dateModified\":\"2026-09-25T09:00:00-05:00\"},{\"@type\":\"ImageObject\",\"@id\":\"https://www.hiranilawfirm.com/blog/texas-child-custody-factors#primaryimage\",\"url\":\"https://www.hiranilawfirm.com/og/blog/texas-child-custody-factors.jpg\",\"width\":1200,\"height\":630,\"caption\":\"Parent holding a young child's hand — Texas child custody factors\"},{\"@type\":\"BlogPosting\",\"@id\":\"https://www.hiranilawfirm.com/blog/texas-child-custody-factors#article\",\"mainEntityOfPage\":{\"@id\":\"https://www.hiranilawfirm.com/blog/texas-child-custody-factors\"},\"isPartOf\":{\"@id\":\"https://www.hiranilawfirm.com/blog#blog\"},\"headline\":\"12 Factors Texas Judges Consider in Child Custody Cases\",\"description\":\"Facing a custody hearing in Texas? Learn the 12 factors judges weigh, the difference between conservatorship and possession, and how to prepare. Schedule a confidential consultation.\",\"image\":{\"@id\":\"https://www.hiranilawfirm.com/blog/texas-child-custody-factors#primaryimage\"},\"thumbnailUrl\":\"https://www.hiranilawfirm.com/og/blog/texas-child-custody-factors.jpg\",\"datePublished\":\"2026-09-25T09:00:00-05:00\",\"dateModified\":\"2026-09-25T09:00:00-05:00\",\"author\":{\"@id\":\"https://www.hiranilawfirm.com/about/sehar-hirani#person\"},\"publisher\":{\"@id\":\"https://www.hiranilawfirm.com/#organization\"},\"articleSection\":\"Family Law\",\"keywords\":[\"Texas child custody factors\",\"best interest of the child Texas\",\"child custody lawyer Houston\",\"Katy child custody attorney\",\"conservatorship vs possession Texas\",\"Texas custody hearing\"],\"wordCount\":796,\"timeRequired\":\"PT6M\",\"inLanguage\":\"en-US\",\"about\":[{\"@type\":\"Service\",\"name\":\"Child Custody\",\"url\":\"https://www.hiranilawfirm.com/practice-areas/family-law/child-custody-attorney-houston\",\"provider\":{\"@id\":\"https://www.hiranilawfirm.com/#organization\"}},{\"@type\":\"Service\",\"name\":\"Conservatorship\",\"url\":\"https://www.hiranilawfirm.com/practice-areas/family-law/conservatorship-attorney-houston\",\"provider\":{\"@id\":\"https://www.hiranilawfirm.com/#organization\"}},{\"@type\":\"Service\",\"name\":\"Father's Rights\",\"url\":\"https://www.hiranilawfirm.com/practice-areas/family-law/father-rights-attorney-houston\",\"provider\":{\"@id\":\"https://www.hiranilawfirm.com/#organization\"}}]},{\"@type\":\"FAQPage\",\"@id\":\"https://www.hiranilawfirm.com/blog/texas-child-custody-factors#faq\",\"mainEntity\":[{\"@type\":\"Question\",\"name\":\"What factors do Texas judges consider in child custody cases?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Texas judges weigh 12 key factors across three categories: the child's needs and relationships (emotional/physical needs, relationships with parents and siblings, and the child's own preference if age-appropriate), each parent's situation (home stability, parenting skills, work schedule, and geographic proximity), and safety and co-parenting ability (history of abuse, substance abuse, false allegations, and willingness to support the other parent's relationship with the child).\"}},{\"@type\":\"Question\",\"name\":\"What is the \\\"best interest of the child\\\" standard in Texas?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"This is the legal standard Texas courts use to make custody decisions. Rather than a fixed formula, judges consider a range of factors — including the 12 listed above — to determine which arrangement best supports the child's wellbeing.\"}},{\"@type\":\"Question\",\"name\":\"Can a child choose which parent to live with in Texas?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"A child who is 12 or older can request to speak with the judge about their custody preference. However, this is only one factor among many and is not the deciding factor in the court's decision.\"}},{\"@type\":\"Question\",\"name\":\"What's the difference between conservatorship and possession in Texas?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Conservatorship refers to legal decision-making authority over things like education, healthcare, and religion. Possession refers to where the child physically lives and the visitation schedule. Parents can share one without sharing the other.\"}},{\"@type\":\"Question\",\"name\":\"Does a history of domestic violence affect custody in Texas?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Yes. A documented history of domestic violence or abuse is a significant factor that can limit or restrict a parent's custody or visitation rights.\"}},{\"@type\":\"Question\",\"name\":\"What happens if a parent makes false allegations during a custody case?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Texas courts take false allegations seriously. Making unfounded claims against the other parent to gain an advantage can damage the accusing parent's credibility and negatively affect their case.\"}}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https://www.hiranilawfirm.com/blog/texas-child-custody-factors#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https://www.hiranilawfirm.com/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Blog\",\"item\":\"https://www.hiranilawfirm.com/blog\"},{\"@type\":\"ListItem\",\"position\":3,\"name\":\"12 Factors Texas Judges Consider in Child Custody Cases\",\"item\":\"https://www.hiranilawfirm.com/blog/texas-child-custody-factors\"}]},{\"@type\":\"Person\",\"@id\":\"https://www.hiranilawfirm.com/about/sehar-hirani#person\",\"name\":\"Sehar Hirani\",\"url\":\"https://www.hiranilawfirm.com/about/sehar-hirani\",\"jobTitle\":\"Family Law & Personal Injury Attorney\",\"worksFor\":{\"@id\":\"https://www.hiranilawfirm.com/#organization\"},\"sameAs\":[\"https://www.linkedin.com/in/sehar-hirani-3581b687\"]},{\"@type\":\"LegalService\",\"@id\":\"https://www.hiranilawfirm.com/#organization\",\"name\":\"Hirani Law Firm PLLC\",\"url\":\"https://www.hiranilawfirm.com\",\"telephone\":\"281-665-8188\",\"email\":\"info@hiranilawfirm.com\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https://www.hiranilawfirm.com/favicon.png\",\"width\":256,\"height\":256},\"image\":\"https://www.hiranilawfirm.com/og-image.png\",\"areaServed\":[{\"@type\":\"Place\",\"name\":\"Houston, TX\"},{\"@type\":\"Place\",\"name\":\"Katy, TX\"},{\"@type\":\"Place\",\"name\":\"Fort Bend, TX\"},{\"@type\":\"Place\",\"name\":\"Montgomery, TX\"},{\"@type\":\"Place\",\"name\":\"Galveston, TX\"},{\"@type\":\"Place\",\"name\":\"Austin County, TX\"}],\"sameAs\":[\"https://www.facebook.com/Hiranilawfirm/\",\"https://www.instagram.com/hiranilawfirm/\",\"https://www.linkedin.com/in/sehar-hirani-3581b687\",\"https://www.tiktok.com/@hiranilawfirm\"]}]}"
+        "jsonLd": "{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https://www.hiranilawfirm.com/blog/texas-child-custody-factors\",\"url\":\"https://www.hiranilawfirm.com/blog/texas-child-custody-factors\",\"name\":\"12 factores que los jueces de Texas consideran en casos de custodia\",\"description\":\"¿Tiene una audiencia de custodia en Texas? Conozca los 12 factores que evalúan los jueces, la diferencia entre la tutela legal y la posesión, y cómo prepararse. Programe una consulta confidencial.\",\"inLanguage\":\"es-US\",\"isPartOf\":{\"@type\":\"WebSite\",\"@id\":\"https://www.hiranilawfirm.com/#website\",\"url\":\"https://www.hiranilawfirm.com\",\"name\":\"Hirani Law Firm PLLC\"},\"primaryImageOfPage\":{\"@id\":\"https://www.hiranilawfirm.com/blog/texas-child-custody-factors#primaryimage\"},\"breadcrumb\":{\"@id\":\"https://www.hiranilawfirm.com/blog/texas-child-custody-factors#breadcrumb\"},\"datePublished\":\"2026-09-25T09:00:00-05:00\",\"dateModified\":\"2026-09-25T09:00:00-05:00\"},{\"@type\":\"ImageObject\",\"@id\":\"https://www.hiranilawfirm.com/blog/texas-child-custody-factors#primaryimage\",\"url\":\"https://www.hiranilawfirm.com/og/blog/texas-child-custody-factors.jpg\",\"width\":1200,\"height\":630,\"caption\":\"Una persona adulta toma de la mano a un menor, en referencia a los factores de custodia infantil en Texas\"},{\"@type\":\"BlogPosting\",\"@id\":\"https://www.hiranilawfirm.com/blog/texas-child-custody-factors#article\",\"mainEntityOfPage\":{\"@id\":\"https://www.hiranilawfirm.com/blog/texas-child-custody-factors\"},\"isPartOf\":{\"@id\":\"https://www.hiranilawfirm.com/blog#blog\"},\"headline\":\"12 factores que los jueces de Texas consideran en casos de custodia infantil\",\"description\":\"¿Tiene una audiencia de custodia en Texas? Conozca los 12 factores que evalúan los jueces, la diferencia entre la tutela legal y la posesión, y cómo prepararse. Programe una consulta confidencial.\",\"image\":{\"@id\":\"https://www.hiranilawfirm.com/blog/texas-child-custody-factors#primaryimage\"},\"thumbnailUrl\":\"https://www.hiranilawfirm.com/og/blog/texas-child-custody-factors.jpg\",\"datePublished\":\"2026-09-25T09:00:00-05:00\",\"dateModified\":\"2026-09-25T09:00:00-05:00\",\"author\":{\"@id\":\"https://www.hiranilawfirm.com/about/sehar-hirani#person\"},\"publisher\":{\"@id\":\"https://www.hiranilawfirm.com/#organization\"},\"articleSection\":\"Derecho familiar\",\"keywords\":[\"factores de custodia infantil en Texas\",\"interés superior del menor en Texas\",\"abogado de custodia infantil en Houston\",\"abogado de custodia infantil en Katy\",\"tutela legal y posesión en Texas\",\"audiencia de custodia en Texas\"],\"wordCount\":914,\"timeRequired\":\"PT6M\",\"inLanguage\":\"es-US\",\"about\":[{\"@type\":\"Service\",\"name\":\"Custodia infantil\",\"url\":\"https://www.hiranilawfirm.com/practice-areas/family-law/child-custody-attorney-houston\",\"provider\":{\"@id\":\"https://www.hiranilawfirm.com/#organization\"}},{\"@type\":\"Service\",\"name\":\"Tutela legal\",\"url\":\"https://www.hiranilawfirm.com/practice-areas/family-law/conservatorship-attorney-houston\",\"provider\":{\"@id\":\"https://www.hiranilawfirm.com/#organization\"}},{\"@type\":\"Service\",\"name\":\"Derechos del padre\",\"url\":\"https://www.hiranilawfirm.com/practice-areas/family-law/father-rights-attorney-houston\",\"provider\":{\"@id\":\"https://www.hiranilawfirm.com/#organization\"}}]},{\"@type\":\"FAQPage\",\"@id\":\"https://www.hiranilawfirm.com/blog/texas-child-custody-factors#faq\",\"mainEntity\":[{\"@type\":\"Question\",\"name\":\"¿Qué factores consideran los jueces de Texas en los casos de custodia infantil?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Los jueces de Texas evalúan 12 factores en tres grupos: las necesidades y relaciones del menor (necesidades emocionales y físicas, relaciones con sus padres y hermanos y su preferencia si su edad lo permite), la situación de cada padre o madre (estabilidad del hogar, habilidades de crianza, horario de trabajo y cercanía entre las viviendas) y la seguridad y capacidad de colaborar en la crianza (antecedentes de maltrato, abuso de sustancias, acusaciones falsas y disposición a apoyar la relación del menor con el otro padre o madre).\"}},{\"@type\":\"Question\",\"name\":\"¿Qué significa el criterio del \\\"interés superior del menor\\\" en Texas?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Es el criterio legal que usan los tribunales de Texas para decidir sobre la custodia. Los jueces evalúan diferentes factores, incluidos los 12 mencionados aquí, para determinar qué arreglo favorece más el bienestar del menor.\"}},{\"@type\":\"Question\",\"name\":\"¿Puede un menor elegir con cuál de sus padres vivir en Texas?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Un menor de 12 años o más puede pedir hablar con el juez sobre su preferencia de custodia. El tribunal considera esa preferencia junto con otros factores al tomar su decisión.\"}},{\"@type\":\"Question\",\"name\":\"¿Cuál es la diferencia entre la tutela legal y la posesión en Texas?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"La tutela legal se refiere a la autoridad para tomar decisiones sobre asuntos como la educación, la atención médica y la religión. La posesión se refiere a dónde vive el menor y al horario de visitas. Los padres pueden compartir uno de estos arreglos y distribuir el otro de manera diferente.\"}},{\"@type\":\"Question\",\"name\":\"¿Influyen los antecedentes de violencia familiar en la custodia en Texas?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Sí. Los antecedentes documentados de violencia familiar o maltrato son un factor importante que puede limitar los derechos de custodia o visita de un padre o una madre.\"}},{\"@type\":\"Question\",\"name\":\"¿Qué sucede si un padre o una madre hace acusaciones falsas durante un caso de custodia?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Los tribunales de Texas toman en serio las acusaciones falsas. Hacer afirmaciones infundadas contra el otro padre o madre para obtener ventaja puede perjudicar la credibilidad de quien las hace y afectar su caso.\"}}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https://www.hiranilawfirm.com/blog/texas-child-custody-factors#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Inicio\",\"item\":\"https://www.hiranilawfirm.com/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Blog\",\"item\":\"https://www.hiranilawfirm.com/blog\"},{\"@type\":\"ListItem\",\"position\":3,\"name\":\"12 factores que los jueces de Texas consideran en casos de custodia infantil\",\"item\":\"https://www.hiranilawfirm.com/blog/texas-child-custody-factors\"}]},{\"@type\":\"Person\",\"@id\":\"https://www.hiranilawfirm.com/about/sehar-hirani#person\",\"name\":\"Sehar Hirani\",\"url\":\"https://www.hiranilawfirm.com/about/sehar-hirani\",\"jobTitle\":\"Abogada de derecho familiar y lesiones personales\",\"worksFor\":{\"@id\":\"https://www.hiranilawfirm.com/#organization\"},\"sameAs\":[\"https://www.linkedin.com/in/sehar-hirani-3581b687\"]},{\"@type\":\"LegalService\",\"@id\":\"https://www.hiranilawfirm.com/#organization\",\"name\":\"Hirani Law Firm PLLC\",\"url\":\"https://www.hiranilawfirm.com\",\"telephone\":\"281-665-8188\",\"email\":\"info@hiranilawfirm.com\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https://www.hiranilawfirm.com/favicon.png\",\"width\":256,\"height\":256},\"image\":\"https://www.hiranilawfirm.com/og-image.png\",\"areaServed\":[{\"@type\":\"Place\",\"name\":\"Houston, TX\"},{\"@type\":\"Place\",\"name\":\"Katy, TX\"},{\"@type\":\"Place\",\"name\":\"Fort Bend, TX\"},{\"@type\":\"Place\",\"name\":\"Montgomery, TX\"},{\"@type\":\"Place\",\"name\":\"Galveston, TX\"},{\"@type\":\"Place\",\"name\":\"Austin County, TX\"}],\"sameAs\":[\"https://www.facebook.com/Hiranilawfirm/\",\"https://www.instagram.com/hiranilawfirm/\",\"https://www.linkedin.com/in/sehar-hirani-3581b687\",\"https://www.tiktok.com/@hiranilawfirm\"]}]}"
       },
       "/blog/texas-divorce-property-division": {
-        "title": "Getting Divorced in Texas? How Property & Debt Get Divided | Hirani Law Firm",
-        "description": "Texas is a community property state — here's what that means for your assets, debts, and what might be protected in a divorce. Schedule a consultation with a family law attorney.",
-        "keywords": "Texas divorce property division, Texas community property, separate property Texas divorce, divorce attorney Houston, Katy divorce lawyer, dividing debt in Texas divorce",
+        "title": "Cómo se dividen los bienes y las deudas en un divorcio en Texas | Hirani Law Firm",
+        "description": "Texas aplica un régimen de bienes gananciales. Conozca qué significa para sus bienes y deudas, y qué bienes podrían quedar protegidos en un divorcio. Programe una consulta con un abogado de derecho familiar.",
+        "keywords": "división de bienes en un divorcio en Texas, bienes gananciales en Texas, bienes propios en un divorcio en Texas, abogado de divorcio en Houston, abogado de divorcio en Katy, división de deudas en un divorcio en Texas",
         "canonical": "https://www.hiranilawfirm.com/blog/texas-divorce-property-division",
         "type": "article",
         "image": {
@@ -5153,29 +5153,29 @@
           "width": 1200,
           "height": 630,
           "type": "image/jpeg",
-          "alt": "Couple reviewing and signing a divorce settlement agreement — Texas property and debt division"
+          "alt": "Pareja que revisa y firma un acuerdo de divorcio sobre la división de bienes y deudas en Texas"
         },
         "article": {
           "publishedTime": "2026-09-25T09:00:00-05:00",
           "modifiedTime": "2026-09-25T09:00:00-05:00",
           "author": "https://www.hiranilawfirm.com/about/sehar-hirani",
-          "section": "Family Law",
+          "section": "Derecho familiar",
           "tags": [
-            "Texas divorce property division",
-            "Texas community property",
-            "separate property Texas divorce",
-            "divorce attorney Houston",
-            "Katy divorce lawyer",
-            "dividing debt in Texas divorce"
+            "división de bienes en un divorcio en Texas",
+            "bienes gananciales en Texas",
+            "bienes propios en un divorcio en Texas",
+            "abogado de divorcio en Houston",
+            "abogado de divorcio en Katy",
+            "división de deudas en un divorcio en Texas"
           ]
         },
         "feed": true,
-        "jsonLd": "{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https://www.hiranilawfirm.com/blog/texas-divorce-property-division\",\"url\":\"https://www.hiranilawfirm.com/blog/texas-divorce-property-division\",\"name\":\"Getting Divorced in Texas? How Property & Debt Get Divided\",\"description\":\"Texas is a community property state — here's what that means for your assets, debts, and what might be protected in a divorce. Schedule a consultation with a family law attorney.\",\"inLanguage\":\"en-US\",\"isPartOf\":{\"@type\":\"WebSite\",\"@id\":\"https://www.hiranilawfirm.com/#website\",\"url\":\"https://www.hiranilawfirm.com\",\"name\":\"Hirani Law Firm PLLC\"},\"primaryImageOfPage\":{\"@id\":\"https://www.hiranilawfirm.com/blog/texas-divorce-property-division#primaryimage\"},\"breadcrumb\":{\"@id\":\"https://www.hiranilawfirm.com/blog/texas-divorce-property-division#breadcrumb\"},\"datePublished\":\"2026-09-25T09:00:00-05:00\",\"dateModified\":\"2026-09-25T09:00:00-05:00\"},{\"@type\":\"ImageObject\",\"@id\":\"https://www.hiranilawfirm.com/blog/texas-divorce-property-division#primaryimage\",\"url\":\"https://www.hiranilawfirm.com/og/blog/texas-divorce-property-division.jpg\",\"width\":1200,\"height\":630,\"caption\":\"Couple reviewing and signing a divorce settlement agreement — Texas property and debt division\"},{\"@type\":\"BlogPosting\",\"@id\":\"https://www.hiranilawfirm.com/blog/texas-divorce-property-division#article\",\"mainEntityOfPage\":{\"@id\":\"https://www.hiranilawfirm.com/blog/texas-divorce-property-division\"},\"isPartOf\":{\"@id\":\"https://www.hiranilawfirm.com/blog#blog\"},\"headline\":\"Getting Divorced in Texas? Here's How Property and Debt Get Divided\",\"description\":\"Texas is a community property state — here's what that means for your assets, debts, and what might be protected in a divorce. Schedule a consultation with a family law attorney.\",\"image\":{\"@id\":\"https://www.hiranilawfirm.com/blog/texas-divorce-property-division#primaryimage\"},\"thumbnailUrl\":\"https://www.hiranilawfirm.com/og/blog/texas-divorce-property-division.jpg\",\"datePublished\":\"2026-09-25T09:00:00-05:00\",\"dateModified\":\"2026-09-25T09:00:00-05:00\",\"author\":{\"@id\":\"https://www.hiranilawfirm.com/about/sehar-hirani#person\"},\"publisher\":{\"@id\":\"https://www.hiranilawfirm.com/#organization\"},\"articleSection\":\"Family Law\",\"keywords\":[\"Texas divorce property division\",\"Texas community property\",\"separate property Texas divorce\",\"divorce attorney Houston\",\"Katy divorce lawyer\",\"dividing debt in Texas divorce\"],\"wordCount\":381,\"timeRequired\":\"PT4M\",\"inLanguage\":\"en-US\",\"about\":[{\"@type\":\"Service\",\"name\":\"Property Division\",\"url\":\"https://www.hiranilawfirm.com/practice-areas/family-law/property-division-attorney-houston\",\"provider\":{\"@id\":\"https://www.hiranilawfirm.com/#organization\"}},{\"@type\":\"Service\",\"name\":\"Divorce\",\"url\":\"https://www.hiranilawfirm.com/practice-areas/family-law/divorce-attorney-houston\",\"provider\":{\"@id\":\"https://www.hiranilawfirm.com/#organization\"}},{\"@type\":\"Service\",\"name\":\"Prenuptial Agreements\",\"url\":\"https://www.hiranilawfirm.com/practice-areas/family-law/houston-prenups-marital-agreements-attorney\",\"provider\":{\"@id\":\"https://www.hiranilawfirm.com/#organization\"}}]},{\"@type\":\"FAQPage\",\"@id\":\"https://www.hiranilawfirm.com/blog/texas-divorce-property-division#faq\",\"mainEntity\":[{\"@type\":\"Question\",\"name\":\"Is Texas a community property state?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Yes. In Texas, most assets and debts acquired during the marriage are considered community property, owned equally by both spouses, regardless of whose name is on the account or title.\"}},{\"@type\":\"Question\",\"name\":\"What property is divided in a Texas divorce?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Community property division can include income earned during the marriage, the family home, retirement accounts and 401(k)s, business interests and investments, and credit card or loan debt.\"}},{\"@type\":\"Question\",\"name\":\"What property is protected from division in a Texas divorce?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Separate property is generally protected, including property owned before the marriage, gifts received during the marriage, inheritances left to one spouse, and anything covered by a valid prenuptial agreement.\"}},{\"@type\":\"Question\",\"name\":\"Can separate property become community property in Texas?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Yes. Separate property can lose its protected status if it becomes commingled with community property — for example, mixing inheritance funds into a joint bank account.\"}},{\"@type\":\"Question\",\"name\":\"Do I need a lawyer to divide property in a Texas divorce?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"While not legally required, a family law attorney can help ensure you understand what you're entitled to and don't unknowingly accept an unfair settlement. Hirani Law Firm offers a consultation to review your situation.\"}}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https://www.hiranilawfirm.com/blog/texas-divorce-property-division#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https://www.hiranilawfirm.com/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Blog\",\"item\":\"https://www.hiranilawfirm.com/blog\"},{\"@type\":\"ListItem\",\"position\":3,\"name\":\"Getting Divorced in Texas? Here's How Property and Debt Get Divided\",\"item\":\"https://www.hiranilawfirm.com/blog/texas-divorce-property-division\"}]},{\"@type\":\"Person\",\"@id\":\"https://www.hiranilawfirm.com/about/sehar-hirani#person\",\"name\":\"Sehar Hirani\",\"url\":\"https://www.hiranilawfirm.com/about/sehar-hirani\",\"jobTitle\":\"Family Law & Personal Injury Attorney\",\"worksFor\":{\"@id\":\"https://www.hiranilawfirm.com/#organization\"},\"sameAs\":[\"https://www.linkedin.com/in/sehar-hirani-3581b687\"]},{\"@type\":\"LegalService\",\"@id\":\"https://www.hiranilawfirm.com/#organization\",\"name\":\"Hirani Law Firm PLLC\",\"url\":\"https://www.hiranilawfirm.com\",\"telephone\":\"281-665-8188\",\"email\":\"info@hiranilawfirm.com\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https://www.hiranilawfirm.com/favicon.png\",\"width\":256,\"height\":256},\"image\":\"https://www.hiranilawfirm.com/og-image.png\",\"areaServed\":[{\"@type\":\"Place\",\"name\":\"Houston, TX\"},{\"@type\":\"Place\",\"name\":\"Katy, TX\"},{\"@type\":\"Place\",\"name\":\"Fort Bend, TX\"},{\"@type\":\"Place\",\"name\":\"Montgomery, TX\"},{\"@type\":\"Place\",\"name\":\"Galveston, TX\"},{\"@type\":\"Place\",\"name\":\"Austin County, TX\"}],\"sameAs\":[\"https://www.facebook.com/Hiranilawfirm/\",\"https://www.instagram.com/hiranilawfirm/\",\"https://www.linkedin.com/in/sehar-hirani-3581b687\",\"https://www.tiktok.com/@hiranilawfirm\"]}]}"
+        "jsonLd": "{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https://www.hiranilawfirm.com/blog/texas-divorce-property-division\",\"url\":\"https://www.hiranilawfirm.com/blog/texas-divorce-property-division\",\"name\":\"Cómo se dividen los bienes y las deudas en un divorcio en Texas\",\"description\":\"Texas aplica un régimen de bienes gananciales. Conozca qué significa para sus bienes y deudas, y qué bienes podrían quedar protegidos en un divorcio. Programe una consulta con un abogado de derecho familiar.\",\"inLanguage\":\"es-US\",\"isPartOf\":{\"@type\":\"WebSite\",\"@id\":\"https://www.hiranilawfirm.com/#website\",\"url\":\"https://www.hiranilawfirm.com\",\"name\":\"Hirani Law Firm PLLC\"},\"primaryImageOfPage\":{\"@id\":\"https://www.hiranilawfirm.com/blog/texas-divorce-property-division#primaryimage\"},\"breadcrumb\":{\"@id\":\"https://www.hiranilawfirm.com/blog/texas-divorce-property-division#breadcrumb\"},\"datePublished\":\"2026-09-25T09:00:00-05:00\",\"dateModified\":\"2026-09-25T09:00:00-05:00\"},{\"@type\":\"ImageObject\",\"@id\":\"https://www.hiranilawfirm.com/blog/texas-divorce-property-division#primaryimage\",\"url\":\"https://www.hiranilawfirm.com/og/blog/texas-divorce-property-division.jpg\",\"width\":1200,\"height\":630,\"caption\":\"Pareja que revisa y firma un acuerdo de divorcio sobre la división de bienes y deudas en Texas\"},{\"@type\":\"BlogPosting\",\"@id\":\"https://www.hiranilawfirm.com/blog/texas-divorce-property-division#article\",\"mainEntityOfPage\":{\"@id\":\"https://www.hiranilawfirm.com/blog/texas-divorce-property-division\"},\"isPartOf\":{\"@id\":\"https://www.hiranilawfirm.com/blog#blog\"},\"headline\":\"¿Se va a divorciar en Texas? Así se dividen los bienes y las deudas\",\"description\":\"Texas aplica un régimen de bienes gananciales. Conozca qué significa para sus bienes y deudas, y qué bienes podrían quedar protegidos en un divorcio. Programe una consulta con un abogado de derecho familiar.\",\"image\":{\"@id\":\"https://www.hiranilawfirm.com/blog/texas-divorce-property-division#primaryimage\"},\"thumbnailUrl\":\"https://www.hiranilawfirm.com/og/blog/texas-divorce-property-division.jpg\",\"datePublished\":\"2026-09-25T09:00:00-05:00\",\"dateModified\":\"2026-09-25T09:00:00-05:00\",\"author\":{\"@id\":\"https://www.hiranilawfirm.com/about/sehar-hirani#person\"},\"publisher\":{\"@id\":\"https://www.hiranilawfirm.com/#organization\"},\"articleSection\":\"Derecho familiar\",\"keywords\":[\"división de bienes en un divorcio en Texas\",\"bienes gananciales en Texas\",\"bienes propios en un divorcio en Texas\",\"abogado de divorcio en Houston\",\"abogado de divorcio en Katy\",\"división de deudas en un divorcio en Texas\"],\"wordCount\":411,\"timeRequired\":\"PT4M\",\"inLanguage\":\"es-US\",\"about\":[{\"@type\":\"Service\",\"name\":\"División de bienes\",\"url\":\"https://www.hiranilawfirm.com/practice-areas/family-law/property-division-attorney-houston\",\"provider\":{\"@id\":\"https://www.hiranilawfirm.com/#organization\"}},{\"@type\":\"Service\",\"name\":\"Divorcio\",\"url\":\"https://www.hiranilawfirm.com/practice-areas/family-law/divorce-attorney-houston\",\"provider\":{\"@id\":\"https://www.hiranilawfirm.com/#organization\"}},{\"@type\":\"Service\",\"name\":\"Acuerdos prenupciales\",\"url\":\"https://www.hiranilawfirm.com/practice-areas/family-law/houston-prenups-marital-agreements-attorney\",\"provider\":{\"@id\":\"https://www.hiranilawfirm.com/#organization\"}}]},{\"@type\":\"FAQPage\",\"@id\":\"https://www.hiranilawfirm.com/blog/texas-divorce-property-division#faq\",\"mainEntity\":[{\"@type\":\"Question\",\"name\":\"¿Aplica Texas un régimen de bienes gananciales?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Sí. En Texas, la mayoría de los bienes y las deudas adquiridos durante el matrimonio se consideran bienes gananciales y pertenecen a ambos cónyuges por igual, independientemente de quién figure en la cuenta o en el título de propiedad.\"}},{\"@type\":\"Question\",\"name\":\"¿Qué bienes se dividen en un divorcio en Texas?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"La división de bienes gananciales puede incluir los ingresos obtenidos durante el matrimonio, la vivienda familiar, las cuentas de jubilación y los planes 401(k), las participaciones en empresas y las inversiones, y las deudas de tarjetas de crédito o préstamos.\"}},{\"@type\":\"Question\",\"name\":\"¿Qué bienes quedan protegidos en un divorcio en Texas?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Los bienes propios suelen quedar protegidos. Entre ellos están los bienes que ya se poseían antes del matrimonio, los regalos recibidos durante el matrimonio, las herencias dejadas a uno de los cónyuges y los bienes cubiertos por un acuerdo prenupcial válido.\"}},{\"@type\":\"Question\",\"name\":\"¿Pueden los bienes propios convertirse en bienes gananciales en Texas?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Sí. Los bienes propios pueden perder su protección si se mezclan con los gananciales, por ejemplo, al depositar el dinero de una herencia en una cuenta conjunta.\"}},{\"@type\":\"Question\",\"name\":\"¿Necesito un abogado para dividir los bienes en un divorcio en Texas?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"La ley no lo exige, pero un abogado de derecho familiar puede ayudarle a entender qué le corresponde y a evitar que acepte por desconocimiento un acuerdo injusto. Hirani Law Firm ofrece consultas para revisar su situación.\"}}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https://www.hiranilawfirm.com/blog/texas-divorce-property-division#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Inicio\",\"item\":\"https://www.hiranilawfirm.com/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Blog\",\"item\":\"https://www.hiranilawfirm.com/blog\"},{\"@type\":\"ListItem\",\"position\":3,\"name\":\"¿Se va a divorciar en Texas? Así se dividen los bienes y las deudas\",\"item\":\"https://www.hiranilawfirm.com/blog/texas-divorce-property-division\"}]},{\"@type\":\"Person\",\"@id\":\"https://www.hiranilawfirm.com/about/sehar-hirani#person\",\"name\":\"Sehar Hirani\",\"url\":\"https://www.hiranilawfirm.com/about/sehar-hirani\",\"jobTitle\":\"Abogada de derecho familiar y lesiones personales\",\"worksFor\":{\"@id\":\"https://www.hiranilawfirm.com/#organization\"},\"sameAs\":[\"https://www.linkedin.com/in/sehar-hirani-3581b687\"]},{\"@type\":\"LegalService\",\"@id\":\"https://www.hiranilawfirm.com/#organization\",\"name\":\"Hirani Law Firm PLLC\",\"url\":\"https://www.hiranilawfirm.com\",\"telephone\":\"281-665-8188\",\"email\":\"info@hiranilawfirm.com\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https://www.hiranilawfirm.com/favicon.png\",\"width\":256,\"height\":256},\"image\":\"https://www.hiranilawfirm.com/og-image.png\",\"areaServed\":[{\"@type\":\"Place\",\"name\":\"Houston, TX\"},{\"@type\":\"Place\",\"name\":\"Katy, TX\"},{\"@type\":\"Place\",\"name\":\"Fort Bend, TX\"},{\"@type\":\"Place\",\"name\":\"Montgomery, TX\"},{\"@type\":\"Place\",\"name\":\"Galveston, TX\"},{\"@type\":\"Place\",\"name\":\"Austin County, TX\"}],\"sameAs\":[\"https://www.facebook.com/Hiranilawfirm/\",\"https://www.instagram.com/hiranilawfirm/\",\"https://www.linkedin.com/in/sehar-hirani-3581b687\",\"https://www.tiktok.com/@hiranilawfirm\"]}]}"
       },
       "/blog/car-accident-texas-what-to-do": {
-        "title": "Injured in a Car Accident in Texas? 4 Steps to Protect Your Case | Hirani Law Firm",
-        "description": "Been in a car accident in Texas? Learn the 4 critical steps to take in the first 72 hours to protect your health and your legal claim. Request a consultation. No fees unless we win.",
-        "keywords": "what to do after a car accident in Texas, car accident lawyer Houston, Katy car accident attorney, Texas car accident claim, insurance recorded statement, auto accident attorney Houston",
+        "title": "Accidentes de auto en Texas: 4 pasos para proteger su caso | Hirani Law Firm",
+        "description": "¿Tuvo un accidente de auto en Texas? Conozca los cuatro pasos más importantes de las primeras 72 horas para proteger su salud y su reclamación. Solicite una consulta. Solo cobramos honorarios si ganamos su caso.",
+        "keywords": "qué hacer tras un accidente de auto en Texas, abogado de accidentes de auto en Houston, abogado de accidentes de auto en Katy, reclamación por accidente de auto en Texas, declaración grabada a la aseguradora, abogado de choques en Houston",
         "canonical": "https://www.hiranilawfirm.com/blog/car-accident-texas-what-to-do",
         "type": "article",
         "image": {
@@ -5183,24 +5183,24 @@
           "width": 1200,
           "height": 630,
           "type": "image/jpeg",
-          "alt": "Two-car collision with an overturned SUV — what to do after a car accident in Texas"
+          "alt": "Choque de dos vehículos con una camioneta SUV volcada, en un artículo sobre qué hacer tras un accidente de auto en Texas"
         },
         "article": {
           "publishedTime": "2026-09-25T09:00:00-05:00",
           "modifiedTime": "2026-09-25T09:00:00-05:00",
           "author": "https://www.hiranilawfirm.com/about/sehar-hirani",
-          "section": "Personal Injury",
+          "section": "Lesiones personales",
           "tags": [
-            "what to do after a car accident in Texas",
-            "car accident lawyer Houston",
-            "Katy car accident attorney",
-            "Texas car accident claim",
-            "insurance recorded statement",
-            "auto accident attorney Houston"
+            "qué hacer tras un accidente de auto en Texas",
+            "abogado de accidentes de auto en Houston",
+            "abogado de accidentes de auto en Katy",
+            "reclamación por accidente de auto en Texas",
+            "declaración grabada a la aseguradora",
+            "abogado de choques en Houston"
           ]
         },
         "feed": true,
-        "jsonLd": "{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https://www.hiranilawfirm.com/blog/car-accident-texas-what-to-do\",\"url\":\"https://www.hiranilawfirm.com/blog/car-accident-texas-what-to-do\",\"name\":\"Injured in a Car Accident in Texas? 4 Steps to Protect Your Case\",\"description\":\"Been in a car accident in Texas? Learn the 4 critical steps to take in the first 72 hours to protect your health and your legal claim. Request a consultation. No fees unless we win.\",\"inLanguage\":\"en-US\",\"isPartOf\":{\"@type\":\"WebSite\",\"@id\":\"https://www.hiranilawfirm.com/#website\",\"url\":\"https://www.hiranilawfirm.com\",\"name\":\"Hirani Law Firm PLLC\"},\"primaryImageOfPage\":{\"@id\":\"https://www.hiranilawfirm.com/blog/car-accident-texas-what-to-do#primaryimage\"},\"breadcrumb\":{\"@id\":\"https://www.hiranilawfirm.com/blog/car-accident-texas-what-to-do#breadcrumb\"},\"datePublished\":\"2026-09-25T09:00:00-05:00\",\"dateModified\":\"2026-09-25T09:00:00-05:00\"},{\"@type\":\"ImageObject\",\"@id\":\"https://www.hiranilawfirm.com/blog/car-accident-texas-what-to-do#primaryimage\",\"url\":\"https://www.hiranilawfirm.com/og/blog/car-accident-texas-what-to-do.jpg\",\"width\":1200,\"height\":630,\"caption\":\"Two-car collision with an overturned SUV — what to do after a car accident in Texas\"},{\"@type\":\"BlogPosting\",\"@id\":\"https://www.hiranilawfirm.com/blog/car-accident-texas-what-to-do#article\",\"mainEntityOfPage\":{\"@id\":\"https://www.hiranilawfirm.com/blog/car-accident-texas-what-to-do\"},\"isPartOf\":{\"@id\":\"https://www.hiranilawfirm.com/blog#blog\"},\"headline\":\"Injured in a Car Accident in Texas? Here's What to Do in the First 72 Hours\",\"description\":\"Been in a car accident in Texas? Learn the 4 critical steps to take in the first 72 hours to protect your health and your legal claim. Request a consultation. No fees unless we win.\",\"image\":{\"@id\":\"https://www.hiranilawfirm.com/blog/car-accident-texas-what-to-do#primaryimage\"},\"thumbnailUrl\":\"https://www.hiranilawfirm.com/og/blog/car-accident-texas-what-to-do.jpg\",\"datePublished\":\"2026-09-25T09:00:00-05:00\",\"dateModified\":\"2026-09-25T09:00:00-05:00\",\"author\":{\"@id\":\"https://www.hiranilawfirm.com/about/sehar-hirani#person\"},\"publisher\":{\"@id\":\"https://www.hiranilawfirm.com/#organization\"},\"articleSection\":\"Personal Injury\",\"keywords\":[\"what to do after a car accident in Texas\",\"car accident lawyer Houston\",\"Katy car accident attorney\",\"Texas car accident claim\",\"insurance recorded statement\",\"auto accident attorney Houston\"],\"wordCount\":415,\"timeRequired\":\"PT4M\",\"inLanguage\":\"en-US\",\"about\":[{\"@type\":\"Service\",\"name\":\"Auto Accidents\",\"url\":\"https://www.hiranilawfirm.com/practice-areas/personal-injury/houston-auto-accident-attorney\",\"provider\":{\"@id\":\"https://www.hiranilawfirm.com/#organization\"}},{\"@type\":\"Service\",\"name\":\"18-Wheeler Accidents\",\"url\":\"https://www.hiranilawfirm.com/practice-areas/personal-injury/18-wheeler-accident-attorney-houston\",\"provider\":{\"@id\":\"https://www.hiranilawfirm.com/#organization\"}},{\"@type\":\"Service\",\"name\":\"Motorcycle Accidents\",\"url\":\"https://www.hiranilawfirm.com/practice-areas/personal-injury/motorcycle-accident-attorney-houston\",\"provider\":{\"@id\":\"https://www.hiranilawfirm.com/#organization\"}}]},{\"@type\":\"FAQPage\",\"@id\":\"https://www.hiranilawfirm.com/blog/car-accident-texas-what-to-do#faq\",\"mainEntity\":[{\"@type\":\"Question\",\"name\":\"What should I do immediately after a car accident in Texas?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Call 911 to report the accident and ensure a police report is filed, even if the accident seems minor. This creates an official record that protects you if the insurance company later disputes your claim.\"}},{\"@type\":\"Question\",\"name\":\"How soon after a car accident should I see a doctor?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Within 24–48 hours. Adrenaline can mask pain and injuries like whiplash or internal trauma often don't show symptoms right away. Prompt medical treatment also links your injuries directly to the accident in your medical record.\"}},{\"@type\":\"Question\",\"name\":\"Should I give a recorded statement to the insurance company?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"No. Insurance companies use recorded statements to find ways to reduce or deny your claim. Speak with a personal injury attorney before providing any statement.\"}},{\"@type\":\"Question\",\"name\":\"Should I accept a settlement offer from the insurance company?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Not without consulting an attorney first. Early settlement offers are often far lower than what you're actually entitled to, and once accepted, you typically cannot seek additional compensation later.\"}},{\"@type\":\"Question\",\"name\":\"Does Hirani Law Firm charge upfront fees?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"No. Hirani Law Firm offers a consultation and works on a contingency basis — there are no fees unless they win your case.\"}}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https://www.hiranilawfirm.com/blog/car-accident-texas-what-to-do#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https://www.hiranilawfirm.com/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Blog\",\"item\":\"https://www.hiranilawfirm.com/blog\"},{\"@type\":\"ListItem\",\"position\":3,\"name\":\"Injured in a Car Accident in Texas? Here's What to Do in the First 72 Hours\",\"item\":\"https://www.hiranilawfirm.com/blog/car-accident-texas-what-to-do\"}]},{\"@type\":\"Person\",\"@id\":\"https://www.hiranilawfirm.com/about/sehar-hirani#person\",\"name\":\"Sehar Hirani\",\"url\":\"https://www.hiranilawfirm.com/about/sehar-hirani\",\"jobTitle\":\"Family Law & Personal Injury Attorney\",\"worksFor\":{\"@id\":\"https://www.hiranilawfirm.com/#organization\"},\"sameAs\":[\"https://www.linkedin.com/in/sehar-hirani-3581b687\"]},{\"@type\":\"LegalService\",\"@id\":\"https://www.hiranilawfirm.com/#organization\",\"name\":\"Hirani Law Firm PLLC\",\"url\":\"https://www.hiranilawfirm.com\",\"telephone\":\"281-665-8188\",\"email\":\"info@hiranilawfirm.com\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https://www.hiranilawfirm.com/favicon.png\",\"width\":256,\"height\":256},\"image\":\"https://www.hiranilawfirm.com/og-image.png\",\"areaServed\":[{\"@type\":\"Place\",\"name\":\"Houston, TX\"},{\"@type\":\"Place\",\"name\":\"Katy, TX\"},{\"@type\":\"Place\",\"name\":\"Fort Bend, TX\"},{\"@type\":\"Place\",\"name\":\"Montgomery, TX\"},{\"@type\":\"Place\",\"name\":\"Galveston, TX\"},{\"@type\":\"Place\",\"name\":\"Austin County, TX\"}],\"sameAs\":[\"https://www.facebook.com/Hiranilawfirm/\",\"https://www.instagram.com/hiranilawfirm/\",\"https://www.linkedin.com/in/sehar-hirani-3581b687\",\"https://www.tiktok.com/@hiranilawfirm\"]}]}"
+        "jsonLd": "{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https://www.hiranilawfirm.com/blog/car-accident-texas-what-to-do\",\"url\":\"https://www.hiranilawfirm.com/blog/car-accident-texas-what-to-do\",\"name\":\"Accidentes de auto en Texas: 4 pasos para proteger su caso\",\"description\":\"¿Tuvo un accidente de auto en Texas? Conozca los cuatro pasos más importantes de las primeras 72 horas para proteger su salud y su reclamación. Solicite una consulta. Solo cobramos honorarios si ganamos su caso.\",\"inLanguage\":\"es-US\",\"isPartOf\":{\"@type\":\"WebSite\",\"@id\":\"https://www.hiranilawfirm.com/#website\",\"url\":\"https://www.hiranilawfirm.com\",\"name\":\"Hirani Law Firm PLLC\"},\"primaryImageOfPage\":{\"@id\":\"https://www.hiranilawfirm.com/blog/car-accident-texas-what-to-do#primaryimage\"},\"breadcrumb\":{\"@id\":\"https://www.hiranilawfirm.com/blog/car-accident-texas-what-to-do#breadcrumb\"},\"datePublished\":\"2026-09-25T09:00:00-05:00\",\"dateModified\":\"2026-09-25T09:00:00-05:00\"},{\"@type\":\"ImageObject\",\"@id\":\"https://www.hiranilawfirm.com/blog/car-accident-texas-what-to-do#primaryimage\",\"url\":\"https://www.hiranilawfirm.com/og/blog/car-accident-texas-what-to-do.jpg\",\"width\":1200,\"height\":630,\"caption\":\"Choque de dos vehículos con una camioneta SUV volcada, en un artículo sobre qué hacer tras un accidente de auto en Texas\"},{\"@type\":\"BlogPosting\",\"@id\":\"https://www.hiranilawfirm.com/blog/car-accident-texas-what-to-do#article\",\"mainEntityOfPage\":{\"@id\":\"https://www.hiranilawfirm.com/blog/car-accident-texas-what-to-do\"},\"isPartOf\":{\"@id\":\"https://www.hiranilawfirm.com/blog#blog\"},\"headline\":\"¿Sufrió lesiones en un accidente de auto en Texas? Qué hacer en las primeras 72 horas\",\"description\":\"¿Tuvo un accidente de auto en Texas? Conozca los cuatro pasos más importantes de las primeras 72 horas para proteger su salud y su reclamación. Solicite una consulta. Solo cobramos honorarios si ganamos su caso.\",\"image\":{\"@id\":\"https://www.hiranilawfirm.com/blog/car-accident-texas-what-to-do#primaryimage\"},\"thumbnailUrl\":\"https://www.hiranilawfirm.com/og/blog/car-accident-texas-what-to-do.jpg\",\"datePublished\":\"2026-09-25T09:00:00-05:00\",\"dateModified\":\"2026-09-25T09:00:00-05:00\",\"author\":{\"@id\":\"https://www.hiranilawfirm.com/about/sehar-hirani#person\"},\"publisher\":{\"@id\":\"https://www.hiranilawfirm.com/#organization\"},\"articleSection\":\"Lesiones personales\",\"keywords\":[\"qué hacer tras un accidente de auto en Texas\",\"abogado de accidentes de auto en Houston\",\"abogado de accidentes de auto en Katy\",\"reclamación por accidente de auto en Texas\",\"declaración grabada a la aseguradora\",\"abogado de choques en Houston\"],\"wordCount\":453,\"timeRequired\":\"PT4M\",\"inLanguage\":\"es-US\",\"about\":[{\"@type\":\"Service\",\"name\":\"Accidentes de auto\",\"url\":\"https://www.hiranilawfirm.com/practice-areas/personal-injury/houston-auto-accident-attorney\",\"provider\":{\"@id\":\"https://www.hiranilawfirm.com/#organization\"}},{\"@type\":\"Service\",\"name\":\"Accidentes de camiones de 18 ruedas\",\"url\":\"https://www.hiranilawfirm.com/practice-areas/personal-injury/18-wheeler-accident-attorney-houston\",\"provider\":{\"@id\":\"https://www.hiranilawfirm.com/#organization\"}},{\"@type\":\"Service\",\"name\":\"Accidentes de motocicleta\",\"url\":\"https://www.hiranilawfirm.com/practice-areas/personal-injury/motorcycle-accident-attorney-houston\",\"provider\":{\"@id\":\"https://www.hiranilawfirm.com/#organization\"}}]},{\"@type\":\"FAQPage\",\"@id\":\"https://www.hiranilawfirm.com/blog/car-accident-texas-what-to-do#faq\",\"mainEntity\":[{\"@type\":\"Question\",\"name\":\"¿Qué debo hacer inmediatamente después de un accidente de auto en Texas?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Llame al 911 para reportar el accidente y procure que la policía levante un informe, aunque el choque parezca menor. Así quedará un registro oficial que puede protegerle si la aseguradora impugna su reclamación más adelante.\"}},{\"@type\":\"Question\",\"name\":\"¿Cuánto tiempo tengo para consultar a un médico después de un accidente de auto?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Consulte a un médico en un plazo de 24 a 48 horas. La adrenalina puede ocultar el dolor y los síntomas de lesiones como el latigazo cervical o las lesiones internas pueden aparecer más tarde. Recibir atención médica pronto también permite dejar constancia de la relación entre su lesión y el accidente.\"}},{\"@type\":\"Question\",\"name\":\"¿Debo dar una declaración grabada a la aseguradora?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"No. Las aseguradoras usan las declaraciones grabadas para buscar motivos para reducir o rechazar su reclamación. Consulte a un abogado de lesiones personales antes de dar cualquier declaración.\"}},{\"@type\":\"Question\",\"name\":\"¿Debo aceptar una oferta de indemnización de la aseguradora?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Consulte primero a un abogado. Las primeras ofertas suelen ser muy inferiores a la indemnización que podría corresponderle. Una vez que acepta, por lo general no puede pedir una compensación adicional más adelante.\"}},{\"@type\":\"Question\",\"name\":\"¿Cobra Hirani Law Firm honorarios por adelantado?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"No. Hirani Law Firm ofrece consultas y trabaja con honorarios de contingencia. Solo cobra honorarios si gana su caso.\"}}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https://www.hiranilawfirm.com/blog/car-accident-texas-what-to-do#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Inicio\",\"item\":\"https://www.hiranilawfirm.com/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Blog\",\"item\":\"https://www.hiranilawfirm.com/blog\"},{\"@type\":\"ListItem\",\"position\":3,\"name\":\"¿Sufrió lesiones en un accidente de auto en Texas? Qué hacer en las primeras 72 horas\",\"item\":\"https://www.hiranilawfirm.com/blog/car-accident-texas-what-to-do\"}]},{\"@type\":\"Person\",\"@id\":\"https://www.hiranilawfirm.com/about/sehar-hirani#person\",\"name\":\"Sehar Hirani\",\"url\":\"https://www.hiranilawfirm.com/about/sehar-hirani\",\"jobTitle\":\"Abogada de derecho familiar y lesiones personales\",\"worksFor\":{\"@id\":\"https://www.hiranilawfirm.com/#organization\"},\"sameAs\":[\"https://www.linkedin.com/in/sehar-hirani-3581b687\"]},{\"@type\":\"LegalService\",\"@id\":\"https://www.hiranilawfirm.com/#organization\",\"name\":\"Hirani Law Firm PLLC\",\"url\":\"https://www.hiranilawfirm.com\",\"telephone\":\"281-665-8188\",\"email\":\"info@hiranilawfirm.com\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https://www.hiranilawfirm.com/favicon.png\",\"width\":256,\"height\":256},\"image\":\"https://www.hiranilawfirm.com/og-image.png\",\"areaServed\":[{\"@type\":\"Place\",\"name\":\"Houston, TX\"},{\"@type\":\"Place\",\"name\":\"Katy, TX\"},{\"@type\":\"Place\",\"name\":\"Fort Bend, TX\"},{\"@type\":\"Place\",\"name\":\"Montgomery, TX\"},{\"@type\":\"Place\",\"name\":\"Galveston, TX\"},{\"@type\":\"Place\",\"name\":\"Austin County, TX\"}],\"sameAs\":[\"https://www.facebook.com/Hiranilawfirm/\",\"https://www.instagram.com/hiranilawfirm/\",\"https://www.linkedin.com/in/sehar-hirani-3581b687\",\"https://www.tiktok.com/@hiranilawfirm\"]}]}"
       },
       "/contact": {
         "title": "Contact | Hirani Law Firm",
