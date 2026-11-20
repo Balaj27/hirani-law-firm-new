@@ -6,7 +6,7 @@ import { ChevronDown } from "./Icons";
 import Button from "./Button";
 import styles from "./ContactForm.module.css";
 
-/** "Request a free consultation" form card. */
+/** "Request a consultation" form card. */
 type Props = {
   /** "bordered": 1px #e9e9e6 outline and body-colored labels (contact page) */
   variant?: "default" | "bordered";

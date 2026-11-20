@@ -11,6 +11,17 @@ import extra from "@/components/sections/shared/HiraniPages.module.css";
 import styles from "../practice-areas/practice-areas.module.css";
 import RouteSeo from "@/components/layout/RouteSeo";
 
+const daysPerUnit = { day: 1, week: 7, month: 30, year: 365 } as const;
+
+function reviewAgeInDays(when: string) {
+  const age = /^(a|an|\d+) (day|week|month|year)s? ago$/.exec(when);
+  if (!age) return Number.MAX_SAFE_INTEGER;
+
+  const [, quantity, unit] = age;
+  const count = quantity === "a" || quantity === "an" ? 1 : Number(quantity);
+  return count * daysPerUnit[unit as keyof typeof daysPerUnit];
+}
+
 export async function generateMetadata({ params }: PageProps<"/[lang]/reviews">): Promise<Metadata> {
   return routeMetadata(params, "/reviews");
 }
@@ -18,6 +29,7 @@ export async function generateMetadata({ params }: PageProps<"/[lang]/reviews">)
 export default async function ReviewsPage({ params }: PageProps<"/[lang]/reviews">) {
   setRequestLocale((await params).lang);
   const t = getContent().pages.reviews;
+  const reviews = [...t.reviews].sort((a, b) => reviewAgeInDays(a.when) - reviewAgeInDays(b.when));
   return (
     <main className="page">
       <RouteSeo route={"/reviews"} />
@@ -40,7 +52,7 @@ export default async function ReviewsPage({ params }: PageProps<"/[lang]/reviews
               <h2 className={`h2 ${styles.heading}`}>{t.listTitle}</h2>
             </div>
           </div>
-          <ReviewsGrid reviews={t.reviews} />
+          <ReviewsGrid reviews={reviews} />
         </div>
       </section>
 
