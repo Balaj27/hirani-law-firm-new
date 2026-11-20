@@ -20,6 +20,7 @@
 }
 .img {
   object-fit: cover;
+  object-position: var(--hero-image-position);
 }
 .overlay {
   position: absolute;
@@ -83,6 +84,14 @@
   }
   .headline {
     width: 100%;
+  }
+  .bg,
+  .img {
+    transform-origin: var(--hero-mobile-image-position, center);
+  }
+  .img {
+    object-position: var(--hero-mobile-image-position, var(--hero-image-position));
+    scale: var(--hero-mobile-image-scale, none);
   }
 }
 

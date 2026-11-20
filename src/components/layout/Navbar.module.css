@@ -91,9 +91,9 @@
 }
 
 /* --------------------------------------------------------------------------
-   Tablet & phone: hamburger + full-screen menu
+   Narrow viewports: hamburger + full-screen menu
    -------------------------------------------------------------------------- */
-@media (max-width: 1279px) {
+@media (width < 960px) {
   .nav {
     /* menu panel grows/shrinks on the original's spring (critically damped, ~0.63s) */
     --menu-spring: linear(0, 0.0331, 0.1103, 0.208, 0.3114, 0.4119, 0.5045, 0.5872, 0.6592, 0.7207, 0.7726, 0.8158, 0.8515, 0.8808, 0.9047, 0.924, 0.9396, 0.9521, 0.9621, 0.9701, 0.9765, 0.9815, 0.9855, 0.9886, 0.9911, 0.993, 0.9946, 0.9958, 0.9967, 0.9974, 1);
@@ -254,8 +254,8 @@
   }
 }
 
-/* Tablet open menu (810–1279): 20px gutters, larger links and CTA copy */
-@media (min-width: 810px) and (max-width: 1279px) {
+/* Tablet open menu: 20px gutters, larger links and CTA copy */
+@media (810px <= width < 960px) {
   .open .wrapper {
     padding: 24px 20px;
   }
@@ -285,7 +285,7 @@
 .logo .langMobile {
   display: none;
 }
-@media (max-width: 1279px) {
+@media (width < 960px) {
   .logo .langMobile {
     display: inline;
   }
@@ -297,7 +297,7 @@
 /* --------------------------------------------------------------------------
    Dropdowns (About / Practice Areas / Reviews), as on the original header
    -------------------------------------------------------------------------- */
-@media (min-width: 1280px) {
+@media (min-width: 960px) {
   /* let the dropdown panels hang below the bar */
   .nav {
     overflow: visible;
@@ -426,7 +426,7 @@
 }
 
 /* open menu scrolls when expanded sub-links make it taller than the screen */
-@media (max-width: 1279px) {
+@media (width < 960px) {
   .mobileMenu {
     min-height: 0;
     overflow-y: auto;
@@ -444,5 +444,26 @@
 @media (min-width: 1280px) and (max-width: 1439px) {
   .links {
     gap: 18px;
+  }
+}
+
+@media (960px <= width < 1280px) {
+  .nav {
+    padding-block: 17px;
+  }
+  .wrapper {
+    justify-content: space-between;
+    gap: 20px;
+  }
+  .logo,
+  .cta {
+    flex: none;
+  }
+  .links {
+    flex: 0 1 auto;
+    gap: clamp(12px, 1.5vw, 18px);
+  }
+  .cta {
+    gap: 12px;
   }
 }

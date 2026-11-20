@@ -62,7 +62,7 @@
   gap: 32px;
 }
 .cell {
-  height: 465px;
+  min-height: 465px;
   display: flex;
 }
 
@@ -128,8 +128,7 @@
     gap: 28px;
   }
   .cell {
-    height: auto;
-    align-self: start;
+    min-height: 0;
   }
   .ctaSpacer {
     display: none;

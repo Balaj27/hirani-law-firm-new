@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import { animate, motion, useInView, useMotionValue } from "motion/react";
+import { animate, motion, useDragControls, useInView, useMotionValue } from "motion/react";
 import { useCallback, useEffect, useRef, useState } from "react";
 import LineDraw from "@/components/ui/LineDraw";
 import GoogleMark from "@/components/ui/GoogleMark";
@@ -28,7 +28,9 @@ export default function TestimonialSlider({ bordered = true }: { bordered?: bool
   const [width, setWidth] = useState(0);
   const [index, setIndex] = useState(count); // start on the middle copy
   const x = useMotionValue(0);
+  const dragControls = useDragControls();
   const hovering = useRef(false);
+  const dragging = useRef(false);
   const inView = useInView(viewport);
 
   useEffect(() => {
@@ -68,7 +70,7 @@ export default function TestimonialSlider({ bordered = true }: { bordered?: bool
   useEffect(() => {
     if (!width || !inView) return;
     const t = setInterval(() => {
-      if (!hovering.current) go(index + 1);
+      if (!hovering.current && !dragging.current) go(index + 1);
     }, INTERVAL);
     return () => clearInterval(t);
   }, [go, index, width, inView]);
@@ -79,11 +81,35 @@ export default function TestimonialSlider({ bordered = true }: { bordered?: bool
   return (
     <div
       className={`${styles.slider} ${bordered ? styles.bordered : ""}`}
-      onMouseEnter={() => (hovering.current = true)}
-      onMouseLeave={() => (hovering.current = false)}
+      onPointerEnter={(event) => {
+        if (event.pointerType === "mouse") hovering.current = true;
+      }}
+      onPointerLeave={(event) => {
+        if (event.pointerType === "mouse") hovering.current = false;
+      }}
     >
       <div className={styles.viewport} ref={viewport}>
-        <motion.ul className={styles.track} style={{ x }}>
+        <motion.ul
+          className={styles.track}
+          style={{ x }}
+          drag="x"
+          dragControls={dragControls}
+          dragListener={false}
+          dragDirectionLock
+          dragMomentum={false}
+          onPointerDown={(event) => {
+            if (event.pointerType === "touch") dragControls.start(event);
+          }}
+          onDragStart={() => {
+            dragging.current = true;
+          }}
+          onDragEnd={(_, { offset, velocity }) => {
+            dragging.current = false;
+            const distance = Math.abs(offset.x);
+            const swipe = distance >= 45 || (distance >= 12 && Math.abs(velocity.x) >= 500);
+            go(swipe ? index - Math.sign(offset.x) : index);
+          }}
+        >
           {all.map((t, i) => (
             <li key={i} className={styles.card} style={{ width: width || "100%" }} aria-hidden={i !== index}>
               <div className={styles.text}>
@@ -111,7 +137,7 @@ export default function TestimonialSlider({ bordered = true }: { bordered?: bool
                 </div>
               </div>
               <div className={styles.image}>
-                <Image src={t.image} alt="" fill sizes="(max-width: 809px) 100vw, 680px" className={styles.img} />
+                <Image src={t.image} alt="" fill sizes="(max-width: 809px) 100vw, 680px" className={styles.img} draggable={false} />
                 <div className={styles.cta}>
                   <MaskIcon src={t.icon} size={64} />
                   <p className={`serif20 ${styles.ctaText}`}>{copy.cardText}</p>

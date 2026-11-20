@@ -83,6 +83,10 @@ export const MailIcon = (p: IconProps) => (
   />
 );
 
+export const DownloadIcon = (p: IconProps) => (
+  <LineIcon {...p} strokeWidth={1.5} transform="translate(0 0)" d="M12 3v12m-5-5 5 5 5-5M4 15v4a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1v-4" />
+);
+
 export const PhoneIcon = (p: IconProps) => (
   <LineIcon
     {...p}

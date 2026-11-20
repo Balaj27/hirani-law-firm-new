@@ -1,6 +1,5 @@
 "use client";
 
-import Image from "next/image";
 import { useEffect, useRef } from "react";
 import Button from "@/components/ui/Button";
 import MaskIcon from "@/components/ui/MaskIcon";
@@ -76,11 +75,14 @@ export default function PracticeAreasScroller() {
           <SectionLabel tone="light">{t.label}</SectionLabel>
           <h2 className={`h2 ${styles.heading}`}>{t.heading}</h2>
         </Reveal>
-        <Reveal className={styles.titleCta}>
-          <Button href={t.cta.href} variant="fillLight" arrow>
-            {t.cta.label}
+        <div className={styles.titleCtas}>
+          <Button href={t.familyLawCta.href} variant="fillLight" compactFrom="tablet" arrow>
+            {t.familyLawCta.label}
           </Button>
-        </Reveal>
+          <Button href={t.personalInjuryCta.href} variant="outlineLight" compactFrom="tablet" arrow>
+            {t.personalInjuryCta.label}
+          </Button>
+        </div>
       </div>
 
       <div className={styles.cardsSticky}>
@@ -88,7 +90,7 @@ export default function PracticeAreasScroller() {
           {PRACTICE_AREAS.map((area, i) => (
             <div className={styles.item} key={area.slug} style={{ zIndex: i + 1 }}>
               <Reveal className={styles.mobileReveal} once={false}>
-                <article className={styles.card}>
+                <article className={`${styles.card} ${styles.areaCard}`}>
                   <div className={styles.cardInner}>
                     <MaskIcon src={area.icon} size={64} className={styles.icon} />
                     <div className={styles.text}>
@@ -132,13 +134,6 @@ export default function PracticeAreasScroller() {
         ))}
       </div>
 
-      <div className={styles.bg} aria-hidden>
-        <div className={styles.gradient} />
-        <div className={styles.overlay} />
-        <div className={styles.bgSticky}>
-          <Image src="/images/EbsUm8k6mAUCRV2rTnKd3714o.webp" alt="" fill sizes="100vw" className={styles.bgImg} />
-        </div>
-      </div>
     </section>
   );
 }

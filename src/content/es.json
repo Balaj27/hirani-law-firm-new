@@ -325,6 +325,7 @@
       },
       "caseType": {
         "label": "¿En qué necesita ayuda?",
+        "compactLabel": "Área de práctica",
         "options": [
           "Divorcio",
           "Custodia/Manutención de Menores",
@@ -401,9 +402,13 @@
     "practiceScroller": {
       "label": "Nuestras Áreas de Práctica",
       "heading": "Servicios legales\nintegrales para familias\ne individuos.",
-      "cta": {
-        "label": "Explorar Áreas de Práctica",
-        "href": "/practice-areas"
+      "familyLawCta": {
+        "label": "Derecho Familiar",
+        "href": "/practice-areas/family-law"
+      },
+      "personalInjuryCta": {
+        "label": "Lesiones Personales",
+        "href": "/practice-areas/personal-injury"
       },
       "ctaCard": {
         "title": "Su primer paso hacia la resolución comienza con una conversación.",
@@ -692,7 +697,7 @@
           "quote": "Attorney Hirani was there for me during one of the hardest times of my life. She fought for custody of my child and they had great communication throughout the case. I could not have asked for a better advocate for my family.",
           "name": "Jennifer Adams",
           "result": "9 months ago",
-          "image": "/images/hirani/fl-custody.jpg",
+          "image": "/images/hirani/testimonial-custody.webp",
           "icon": "/icons/practice/child-custody-attorney-houston.svg",
           "source": ""
         },
@@ -700,7 +705,7 @@
           "quote": "Attorney Hirani handled my divorce case with incredible care and professionalism. She kept me informed every step of the way and fought hard to protect my rights. I felt supported throughout the entire process.",
           "name": "Maria Rodriguez",
           "result": "8 months ago",
-          "image": "/images/hirani/fl-divorce.jpg",
+          "image": "/images/hirani/testimonial-divorce.webp",
           "icon": "/icons/practice/divorce-attorney-houston.svg",
           "source": ""
         },
@@ -708,7 +713,7 @@
           "quote": "Sehar Hirani is an exceptional attorney. She helped me navigate a complex child custody situation with patience and expertise. Her knowledge of Texas family law is outstanding and she genuinely cares about her clients.",
           "name": "David Thompson",
           "result": "6 months ago",
-          "image": "/images/hirani/fl-custody.jpg",
+          "image": "/images/hirani/testimonial-custody.webp",
           "icon": "/icons/practice/child-custody-attorney-houston.svg",
           "source": ""
         },
@@ -716,7 +721,7 @@
           "quote": "I cannot thank Attorney Hirani enough for everything she did for my family. Going through an adoption can be overwhelming but she made the entire process smooth and stress-free. Her team is responsive and caring.",
           "name": "Amanda Lewis",
           "result": "5 months ago",
-          "image": "/images/hirani/fl-adoption.jpg",
+          "image": "/images/hirani/testimonial-adoption.webp",
           "icon": "/icons/practice/adoption-attorney-houston.svg",
           "source": ""
         },
@@ -724,7 +729,7 @@
           "quote": "After my car accident I did not know where to turn. Attorney Hirani handled my personal injury claim professionally and got me a settlement that covered my medical bills. Highly recommend this firm.",
           "name": "Robert Chen",
           "result": "4 months ago",
-          "image": "/images/hirani/pi-auto.jpg",
+          "image": "/images/hirani/testimonial-auto-accident.webp",
           "icon": "/icons/practice/houston-auto-accident-attorney.svg",
           "source": ""
         }
@@ -862,7 +867,24 @@
     },
     "blog": {
       "title": "Orientación legal para familias y víctimas de lesiones en Texas",
-      "faqTitle": "Preguntas Frecuentes"
+      "faqTitle": "Preguntas Frecuentes",
+      "resources": {
+        "label": "Recursos",
+        "title": "Más recursos para usted.",
+        "downloadLabel": "Descargar PDF",
+        "items": [
+          {
+            "title": "Calendario de custodia compartida 2026",
+            "description": "Un calendario imprimible para ayudar a las familias de Texas a planificar los horarios de custodia y el tiempo con sus hijos.",
+            "href": "/assets/2026-hirani-law-firm-custody-sharing-calendar.pdf"
+          },
+          {
+            "title": "Calendario de la Orden Estándar de Posesión 2027",
+            "description": "Un calendario imprimible con las fechas de posesión de 2027 según la Orden Estándar de Posesión de Texas, incluidos fines de semana, días festivos y el tiempo de verano.",
+            "href": "/assets/2027-hirani-law-firm-custody-sharing-calendar.pdf"
+          }
+        ]
+      }
     },
     "contact": {
       "label": "Contáctenos",

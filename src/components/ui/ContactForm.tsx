@@ -12,9 +12,11 @@ type Props = {
   variant?: "default" | "bordered";
   /** false hides the card title (used inside the consultation popup, which has its own heading) */
   showTitle?: boolean;
+  /** Denser layout for the consultation popup. */
+  compact?: boolean;
 };
 
-export default function ContactForm({ variant = "default", showTitle = true }: Props) {
+export default function ContactForm({ variant = "default", showTitle = true, compact = false }: Props) {
   const t = useContent().forms.consultation;
   const [sent, setSent] = useState(false);
   const onSubmit = (e: FormEvent<HTMLFormElement>) => {
@@ -24,7 +26,7 @@ export default function ContactForm({ variant = "default", showTitle = true }: P
   };
 
   return (
-    <div className={`${styles.card} ${variant === "bordered" ? styles.bordered : ""}`}>
+    <div className={`${styles.card} ${variant === "bordered" ? styles.bordered : ""} ${compact ? styles.compact : ""}`}>
       {showTitle && <h6 className={`h6 ${styles.title}`}>{t.title}</h6>}
       <form className={styles.form} onSubmit={onSubmit}>
         <div className={styles.row}>
@@ -61,7 +63,7 @@ export default function ContactForm({ variant = "default", showTitle = true }: P
           <span className="visually-hidden">{t.caseType.label}</span>
           <select className={styles.select} name="Practice Areas" defaultValue="" required>
             <option value="" disabled>
-              {t.caseType.label}
+              {compact ? t.caseType.compactLabel : t.caseType.label}
             </option>
             {t.caseType.options.map((c) => (
               <option key={c} value={c}>

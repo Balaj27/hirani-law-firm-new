@@ -17,7 +17,7 @@ import styles from "./Navbar.module.css";
  * - "Transparent" variant while the dark hero is behind it, "Light" (white) variant once the
  *   page has scrolled past the first viewport.
  * - Slides up out of view while scrolling down and back in when scrolling up.
- * - Below 1280px it collapses into a hamburger that opens a full-screen menu.
+ * - Below 960px it collapses into a hamburger that opens a full-screen menu.
  */
 export default function Navbar() {
   const { site } = useContent();
@@ -69,7 +69,22 @@ export default function Navbar() {
   }
 
   useEffect(() => {
-    document.documentElement.style.overflow = open ? "hidden" : "";
+    if (!open) return;
+    const root = document.documentElement;
+    const previousOverflow = root.style.overflow;
+    const desktop = window.matchMedia("(min-width: 960px)");
+    const closeOnDesktop = (event: MediaQueryListEvent) => {
+      if (event.matches) {
+        setOpen(false);
+        setExpanded(null);
+      }
+    };
+    root.style.overflow = "hidden";
+    desktop.addEventListener("change", closeOnDesktop);
+    return () => {
+      desktop.removeEventListener("change", closeOnDesktop);
+      root.style.overflow = previousOverflow;
+    };
   }, [open]);
 
   const isCurrent = (href: string) => (href === "/" ? pathname === "/" : pathname === href);
@@ -161,7 +176,7 @@ export default function Navbar() {
             >
               {lang.label}
             </button>
-            <Button href={nav.cta.href} variant={variant === "light" ? "fillDark" : "fillLight"} arrow>
+            <Button href={nav.cta.href} variant={variant === "light" ? "fillDark" : "fillLight"} compactFrom="tablet" arrow>
               {nav.cta.label}
             </Button>
           </div>

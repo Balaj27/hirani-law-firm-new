@@ -11,6 +11,8 @@ type Props = {
   title: ReactNode;
   image: string;
   imagePosition?: string;
+  mobileImagePosition?: string;
+  mobileImageScale?: number;
   /** Small line above the title */
   eyebrow?: string;
   /** Section height as a percentage of the viewport height (original: 60vh by default) */
@@ -27,6 +29,8 @@ export default function PageHero({
   title,
   image,
   imagePosition = "50% 0%",
+  mobileImagePosition,
+  mobileImageScale,
   eyebrow,
   height,
   wide = false,
@@ -36,7 +40,12 @@ export default function PageHero({
   return (
     <section
       className={`${styles.hero} ${className ?? ""}`}
-      style={height ? ({ "--hero-h": `${height}vh` } as CSSProperties) : undefined}
+      style={{
+        "--hero-h": height ? `${height}vh` : undefined,
+        "--hero-image-position": imagePosition,
+        "--hero-mobile-image-position": mobileImagePosition,
+        "--hero-mobile-image-scale": mobileImageScale,
+      } as CSSProperties}
       data-nav-hero
     >
       <div className={styles.wrapper}>
@@ -46,7 +55,7 @@ export default function PageHero({
           animate={{ scale: 1 }}
           transition={{ duration: 1.2, ease: EASE_HERO_IMAGE }}
         >
-          <Image src={image} alt="" fill priority sizes="100vw" className={styles.img} style={{ objectPosition: imagePosition }} />
+          <Image src={image} alt="" fill priority sizes="100vw" className={styles.img} />
           <div className={styles.overlay} />
           <div className={styles.gradient} />
         </motion.div>

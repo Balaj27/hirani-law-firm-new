@@ -68,7 +68,16 @@ export default async function PracticeCategoryPage({ params }: Props) {
   return (
     <main className="page">
       <RouteSeo route={`/practice-areas/${category}`} />
-      <PageHero eyebrow={t.eyebrow} title={t.title} image={t.image} imagePosition="50% 50%" height={90} wide={HERO_WIDTH[category]}>
+      <PageHero
+        eyebrow={t.eyebrow}
+        title={t.title}
+        image={t.image}
+        imagePosition="50% 50%"
+        mobileImagePosition="right center"
+        mobileImageScale={1.5}
+        height={90}
+        wide={HERO_WIDTH[category]}
+      >
         <Reveal onMount y={20} delay={0.5}>
           <p className={`p18 balance ${extra.heroText}`}>{t.subtitle}</p>
         </Reveal>

@@ -95,7 +95,7 @@ function TimedConsultationPopup() {
           </button>
         </div>
 
-        <div className={styles.scrollArea}>
+        <div className={styles.layout}>
           <div className={styles.imageWrap}>
             <div className={styles.portrait}>
               <Image src={t.image} alt={t.imageAlt} fill sizes="(max-width: 767px) 100vw, 460px" className={styles.image} />
@@ -119,7 +119,7 @@ function TimedConsultationPopup() {
                 <span>{contact.email}</span>
               </a>
             </div>
-            <ContactForm showTitle={false} />
+            <ContactForm showTitle={false} compact />
           </div>
         </div>
       </section>
