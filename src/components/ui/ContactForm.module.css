@@ -233,7 +233,7 @@
   display: grid;
   grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.1fr);
   align-items: end;
-  gap: var(--compact-form-gap, 10px) 12px;
+  gap: 10px 12px;
 }
 .compact .row:first-child,
 .compact .messageField,
@@ -269,7 +269,7 @@
   top: 5px;
 }
 .compact .textarea {
-  height: var(--compact-message-height, clamp(56px, 10dvh, 80px));
+  height: clamp(56px, 10dvh, 80px);
   padding-block: 6px;
 }
 .compact .bottom {
@@ -281,4 +281,36 @@
 .compact .submit {
   padding: 14px 20px !important;
   white-space: normal;
+}
+
+@media (max-width: 767px) {
+  .compact .form {
+    display: flex;
+    align-items: stretch;
+    gap: 16px;
+  }
+  .compact .row {
+    flex-direction: column;
+    gap: 16px;
+  }
+  .compact .field {
+    flex: none;
+  }
+  .compact .label,
+  .compact .consent {
+    font-size: 14px;
+  }
+  .compact .inputWrap {
+    padding-block: 0;
+  }
+  .compact .input {
+    min-height: 44px;
+  }
+  .compact .textarea {
+    height: 88px;
+    padding-block: 12px;
+  }
+  .compact .bottom {
+    gap: 16px;
+  }
 }

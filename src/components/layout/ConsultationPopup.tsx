@@ -87,14 +87,6 @@ function TimedConsultationPopup() {
         aria-labelledby="consult-popup-title"
         onMouseDown={(e) => e.stopPropagation()}
       >
-        <div className={styles.toolbar}>
-          <button ref={closeRef} type="button" className={styles.close} onClick={() => setOpen(false)} aria-label={t.close}>
-            <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" strokeWidth="2" aria-hidden>
-              <path d="M18 6 6 18M6 6l12 12" strokeLinecap="round" />
-            </svg>
-          </button>
-        </div>
-
         <div className={styles.layout}>
           <div className={styles.imageWrap}>
             <div className={styles.portrait}>
@@ -104,22 +96,31 @@ function TimedConsultationPopup() {
           </div>
 
           <div className={styles.content}>
-            <SectionLabel>{t.eyebrow}</SectionLabel>
-            <h2 id="consult-popup-title" className={`h4 ${styles.title}`}>
-              {t.title}
-            </h2>
-            <p className={`p16 ${styles.body}`}>{t.body}</p>
-            <div className={styles.contactLinks}>
-              <a href={`tel:+1${contact.phone.replace(/\D/g, "")}`}>
-                <PhoneIcon width={18} height={18} aria-hidden="true" />
-                <span>{contact.phone}</span>
-              </a>
-              <a href={`mailto:${contact.email}`}>
-                <MailIcon width={18} height={18} aria-hidden="true" />
-                <span>{contact.email}</span>
-              </a>
+            <div className={styles.header}>
+              <button ref={closeRef} type="button" className={styles.close} onClick={() => setOpen(false)} aria-label={t.close}>
+                <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" strokeWidth="2" aria-hidden>
+                  <path d="M18 6 6 18M6 6l12 12" strokeLinecap="round" />
+                </svg>
+              </button>
+              <SectionLabel className={styles.eyebrow}>{t.eyebrow}</SectionLabel>
+              <h2 id="consult-popup-title" className={`h4 ${styles.title}`}>
+                {t.title}
+              </h2>
             </div>
-            <ContactForm showTitle={false} compact />
+            <div className={styles.details}>
+              <p className={`p16 ${styles.body}`}>{t.body}</p>
+              <div className={styles.contactLinks}>
+                <a href={`tel:+1${contact.phone.replace(/\D/g, "")}`}>
+                  <PhoneIcon width={18} height={18} aria-hidden="true" />
+                  <span>{contact.phone}</span>
+                </a>
+                <a href={`mailto:${contact.email}`}>
+                  <MailIcon width={18} height={18} aria-hidden="true" />
+                  <span>{contact.email}</span>
+                </a>
+              </div>
+              <ContactForm showTitle={false} compact />
+            </div>
           </div>
         </div>
       </section>

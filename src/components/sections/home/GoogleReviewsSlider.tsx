@@ -10,6 +10,9 @@ import styles from "./GoogleReviewsSlider.module.css";
 export default function GoogleReviewsSlider() {
   const { pages, sections, common } = useContent();
   const t = sections.homeReviews;
+  const featuredReviews = t.featuredReviewers
+    .map((name) => pages.reviews.reviews.find((review) => review.name === name))
+    .filter((review) => review !== undefined);
   const track = useRef<HTMLDivElement>(null);
   const reducedMotion = useReducedMotion();
   const [expanded, setExpanded] = useState<Set<number>>(new Set());
@@ -46,7 +49,7 @@ export default function GoogleReviewsSlider() {
         <button type="button" className={styles.arrow} aria-label={common.next} aria-controls="google-reviews-track" onClick={() => slide(1)}>→</button>
       </div>
       <div id="google-reviews-track" ref={track} className={styles.track} tabIndex={0} aria-label={t.label}>
-        {pages.reviews.reviews.map((review, index) => (
+        {featuredReviews.map((review, index) => (
           <article key={review.name} className={styles.card}>
             <div className={styles.meta}>
               <span className={styles.stars} aria-label={`${review.rating} / 5`}>

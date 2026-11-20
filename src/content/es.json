@@ -582,7 +582,18 @@
       "label": "Reseñas de Google",
       "heading": "Lo que dicen nuestros clientes",
       "cta": "Ver todas las reseñas",
-      "readLess": "Leer menos"
+      "readLess": "Leer menos",
+      "featuredReviewers": [
+        "Dinora De Leon",
+        "Ronnie A. Pacheco",
+        "Constructions365",
+        "Roger Lopaz",
+        "Yamila Cabezas",
+        "Luis Tapia",
+        "Luis Zamora",
+        "Valerie Guzman",
+        "Vicky Chapa"
+      ]
     },
     "homeCaseStudies": {
       "label": "Refined advocacy for complex matters",
@@ -635,6 +646,7 @@
         "href": "/contact"
       },
       "contactText": "La abogada Sehar Hirani revisa cada consulta personalmente. Todas las comunicaciones están protegidas por el privilegio abogado-cliente.",
+      "homeContactText": "Nuestro equipo revisa cada consulta personalmente. Su información se mantiene confidencial.",
       "image": "/images/hirani/page-hero-banner.png"
     },
     "homeBlog": {

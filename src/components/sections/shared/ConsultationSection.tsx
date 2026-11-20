@@ -10,7 +10,7 @@ import { slideSpring } from "@/lib/motion";
 import styles from "./ConsultationSection.module.css";
 
 /** Dark image section with the intro on the left and the consultation form on the right. */
-export default function ConsultationSection({ id }: { id?: string }) {
+export default function ConsultationSection({ id, contactText }: { id?: string; contactText?: string }) {
   const { sections, site } = getContent();
   const t = sections.consultation;
   const CONTACT = site.contact;
@@ -34,7 +34,7 @@ export default function ConsultationSection({ id }: { id?: string }) {
               </div>
             </div>
             <div className={styles.contactInfo}>
-              <p className={`p18 ${styles.para}`}>{t.contactText}</p>
+              <p className={`p18 ${styles.para}`}>{contactText ?? t.contactText}</p>
               <LineDraw tone="light" />
               <div className={styles.chips}>
                 <ContactChip type="mail" variant="plain" value={CONTACT.email} href={`mailto:${CONTACT.email}`} />

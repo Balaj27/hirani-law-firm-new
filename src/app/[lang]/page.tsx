@@ -10,7 +10,7 @@ import ProcessSection from "@/components/sections/home/ProcessSection";
 import ConsultationSection from "@/components/sections/shared/ConsultationSection";
 import HomeReviews from "@/components/sections/home/HomeReviews";
 import FooterCta from "@/components/sections/home/FooterCta";
-import { setRequestLocale } from "@/content";
+import { getContent, setRequestLocale } from "@/content";
 import { HIDDEN } from "@/lib/hidden";
 import RouteSeo from "@/components/layout/RouteSeo";
 import { routeMetadata } from "@/lib/metadata";
@@ -21,7 +21,8 @@ export async function generateMetadata({ params }: PageProps<"/[lang]">): Promis
 }
 
 export default async function HomePage({ params }: PageProps<"/[lang]">) {
-  setRequestLocale((await params).lang);
+  const locale = setRequestLocale((await params).lang);
+  const { consultation } = getContent(locale).sections;
   return (
     <main className="page">
       <RouteSeo route={"/"} />
@@ -34,7 +35,7 @@ export default async function HomePage({ params }: PageProps<"/[lang]">) {
       <HomeAttorneys />
       <HomeBlogStack />
       <ProcessSection />
-      <ConsultationSection />
+      <ConsultationSection contactText={consultation.homeContactText} />
       <HomeReviews />
       <FooterCta />
     </main>

@@ -582,7 +582,18 @@
       "label": "Google Reviews",
       "heading": "What Our Clients Are Saying",
       "cta": "View All Reviews",
-      "readLess": "Read less"
+      "readLess": "Read less",
+      "featuredReviewers": [
+        "Vicky Chapa",
+        "Aya Sanada",
+        "Roxana Gonzales Castillo",
+        "Salman Mithani",
+        "Lissette",
+        "Raquel Garcia",
+        "Valerie Guzman",
+        "Laura Padron",
+        "Jose Estrada"
+      ]
     },
     "homeCaseStudies": {
       "label": "Refined advocacy for complex matters",
@@ -635,6 +646,7 @@
         "href": "/contact"
       },
       "contactText": "Attorney Sehar Hirani reviews every inquiry personally. All communications are protected by attorney-client privilege.",
+      "homeContactText": "Our team reviews every inquiry personally. Your information is kept confidential.",
       "image": "/images/hirani/page-hero-banner.png"
     },
     "homeBlog": {

@@ -60,13 +60,11 @@
 }
 .logoLink {
   display: flex;
-  width: 105px;
-  height: 28px;
+  width: 136px;
 }
 .logoLink img {
-  width: 105px;
-  height: 28px;
-  object-fit: cover;
+  width: 100%;
+  height: auto;
 }
 
 .links {
@@ -118,7 +116,7 @@
     height: 100vh;
     height: 100dvh;
     flex: none;
-    padding: 24px var(--page-pad);
+    padding: 19px var(--page-pad) 24px;
   }
   .logo {
     flex: none;
@@ -257,7 +255,7 @@
 /* Tablet open menu: 20px gutters, larger links and CTA copy */
 @media (810px <= width < 960px) {
   .open .wrapper {
-    padding: 24px 20px;
+    padding-inline: 20px;
   }
   .mobileLink {
     font-size: 36px;
@@ -301,6 +299,9 @@
   /* let the dropdown panels hang below the bar */
   .nav {
     overflow: visible;
+  }
+  .logoLink {
+    width: clamp(132px, 11.25vw, 156px);
   }
 }
 .hasMenu {

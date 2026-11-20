@@ -102,8 +102,8 @@ export default function Navbar() {
               <Image
                 src={variant === "light" ? LOGO_DARK : LOGO_LIGHT}
                 alt={logo.alt}
-                width={105}
-                height={28}
+                width={500}
+                height={139}
                 priority
               />
             </Link>
