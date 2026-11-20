@@ -245,6 +245,20 @@
   }
 }
 
+@media (max-width: 809px) and (orientation: portrait) {
+  .bgScroll {
+    bottom: auto;
+    height: 100svh;
+  }
+  .bgImg {
+    object-position: center top;
+  }
+  .gradient {
+    background-image: linear-gradient(180deg, transparent 20%, rgba(18, 18, 18, 0.65) 48%, var(--c-black) 100%);
+    mix-blend-mode: normal;
+  }
+}
+
 /* Phones: shorter button labels so both CTAs stay on one line */
 .labelShort {
   display: none;

@@ -41,16 +41,24 @@ export default function Hero() {
           transition={{ duration: 1.2, ease: EASE_HERO_IMAGE }}
         >
           <motion.div className={styles.bgScroll} style={{ scale: scrollScale, y: scrollY }}>
-          <Image
-            src={t.image}
-            alt={t.imageAlt}
-            fill
-            priority
-            sizes="100vw"
-            className={styles.bgImg}
-          />
-          <div className={styles.overlay} />
-          <div className={styles.gradient} />
+            <picture>
+              <source
+                media="(max-width: 809px) and (orientation: portrait)"
+                srcSet="/images/hirani/hero-banner-mobile-4k.webp"
+                type="image/webp"
+              />
+              <Image
+                src={t.image}
+                alt={t.imageAlt}
+                fill
+                loading="eager"
+                fetchPriority="high"
+                sizes="100vw"
+                className={styles.bgImg}
+              />
+            </picture>
+            <div className={styles.overlay} />
+            <div className={styles.gradient} />
           </motion.div>
         </motion.div>
 
