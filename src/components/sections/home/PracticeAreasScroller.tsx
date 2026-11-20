@@ -15,7 +15,7 @@ const TRIGGER_HEIGHT = 300;
 /**
  * Sticky, scroll-linked practice area cards.
  * Every 400px of scroll one more card slides left and "stacks" on the previous one,
- * leaving only a narrow strip (142px desktop / 42px tablet) visible. Phones get a simple list.
+ * leaving a narrow strip of each previous card visible. Phones get a simple list.
  */
 export default function PracticeAreasScroller() {
   const content = useContent();
@@ -37,9 +37,13 @@ export default function PracticeAreasScroller() {
         items.forEach((el) => (el.style.transform = ""));
         return;
       }
-      const step = window.innerWidth >= 1280 ? 142 : 42;
       const vh = window.innerHeight;
       const cardW = items[0]?.offsetWidth ?? 0;
+      let step = window.innerWidth >= 1280 ? 142 : 42;
+      if (vh <= 800 && items.length > 1) {
+        const availableWidth = document.documentElement.clientWidth - row.getBoundingClientRect().left;
+        step = Math.min(step, Math.max(0, (availableWidth - cardW) / (items.length - 1)));
+      }
       const trig = Array.from(triggers.children) as HTMLElement[];
       let shift = 0;
       items.forEach((el, i) => {
