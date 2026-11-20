@@ -2,14 +2,13 @@
   position: relative;
   z-index: 2;
   width: 100%;
-  height: 100vh;
+  min-height: 100svh;
   background-color: var(--c-black);
   display: flex;
 }
 .wrapper {
   position: relative;
   width: 100%;
-  height: 100%;
   overflow: clip;
   display: flex;
   flex-direction: column;
@@ -49,7 +48,7 @@
   position: relative;
   z-index: 1;
   width: 100%;
-  height: 100%;
+  flex: 1;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -59,12 +58,13 @@
 }
 
 .content {
-  flex: 1 0 0;
+  flex: 1 0 auto;
   width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: flex-start;
+  gap: 4px;
 }
 
 .headline {
@@ -76,6 +76,7 @@
   gap: 16px;
 }
 .title {
+  --hero-title-max: 88px;
   color: var(--c-white);
 }
 .lead {
@@ -84,6 +85,7 @@
 .ctas {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   gap: 20px;
   padding-top: 16px;
   overflow: hidden;
@@ -124,37 +126,15 @@
   height: 21px;
   overflow: hidden;
 }
-.spacer {
-  flex: 1 0 0;
-}
 .right {
-  flex: 2 0 0;
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
+  max-width: 100%;
+  margin-inline-start: auto;
 }
 .note {
   width: 320px;
+  max-width: 100%;
   color: var(--c-gray);
-}
-.scroll {
-  display: flex;
-  align-items: center;
-  gap: 4px;
-}
-.scrollText {
-  color: var(--c-white);
-}
-.scrollIconBox {
-  position: relative;
-  width: 20px;
-  height: 20px;
-}
-.scrollIcon {
-  position: absolute;
-  inset: -7px;
-  display: block;
-  color: var(--c-white);
+  text-align: end;
 }
 
 /* Tablet ------------------------------------------------------------------ */
@@ -165,32 +145,57 @@
   .headline {
     width: 560px;
   }
+  .title {
+    --hero-title-max: 76px;
+  }
   .tagline {
     font-size: 18px;
   }
-  .spacer,
-  .scroll {
-    display: none;
+}
+
+@media (min-width: 810px) and (740px <= height <= 800px) {
+  .inner {
+    padding-bottom: 16px;
   }
-  .links {
-    flex: 1 0 0;
+  :global(body:has([aria-labelledby="hl-cookie-title"])) .inner {
+    padding-top: 124px;
   }
-  .right {
-    flex: 1 0 0;
+  :global(body:has([aria-labelledby="hl-cookie-title"])) .title {
+    font-size: 70px;
+  }
+}
+
+/* Short desktop and tablet viewports */
+@media (min-width: 810px) and (height < 740px) {
+  .inner {
+    padding-block: clamp(124px, calc(40svh - 124px), 172px) clamp(20px, 4svh, 32px);
+  }
+  .title {
+    font-size: clamp(42px, max(8.5svh, calc(28svh - 120px)), var(--hero-title-max));
+  }
+  .content {
     justify-content: flex-end;
+    gap: 16px;
+  }
+  :global(body:has([aria-labelledby="hl-cookie-title"])) .content {
+    justify-content: space-between;
+  }
+  .lead {
+    font-size: clamp(16px, 2.5svh, 18px);
+  }
+  .headline {
+    gap: 12px;
+  }
+  .ctas {
+    padding-top: 0;
+  }
+  .moving {
+    gap: 12px;
   }
 }
 
 /* Phone ------------------------------------------------------------------- */
 @media (max-width: 809px) {
-  .hero {
-    height: auto;
-    min-height: 100svh;
-  }
-  .wrapper {
-    height: auto;
-    min-height: 100svh;
-  }
   /* Keep the face above the copy while the image fills the entire hero. */
   .bg,
   .bgScroll {
@@ -207,8 +212,6 @@
     opacity: 1;
   }
   .inner {
-    height: auto;
-    min-height: 100svh;
     padding: clamp(360px, 48svh, 520px) var(--page-pad) 24px;
   }
   .content {
@@ -222,7 +225,6 @@
     font-size: 16px;
   }
   .ctas {
-    flex-wrap: wrap;
     gap: 10px;
   }
   .moving {
@@ -238,12 +240,7 @@
   .links {
     display: none;
   }
-  .right {
-    width: 100%;
-    justify-content: flex-start;
-  }
   .note {
-    max-width: 100%;
     font-size: 14px;
   }
 }

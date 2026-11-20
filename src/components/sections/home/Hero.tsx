@@ -7,7 +7,6 @@ import Button from "@/components/ui/Button";
 import ArrowLink from "@/components/ui/ArrowLink";
 import LineDraw from "@/components/ui/LineDraw";
 import Reveal from "@/components/ui/Reveal";
-import { ChevronDown } from "@/components/ui/Icons";
 import { useContent } from "@/content/client";
 import { EASE_HERO_IMAGE } from "@/lib/motion";
 import styles from "./Hero.module.css";
@@ -91,24 +90,9 @@ export default function Hero() {
                     </ArrowLink>
                   ))}
                 </Reveal>
-                <div className={styles.spacer} />
-                <div className={styles.right}>
-                  <Reveal onMount y={20} delay={0.2}>
-                    <p className={`p16 ${styles.note}`}>{t.note}</p>
-                  </Reveal>
-                  <Reveal onMount y={20} delay={0.2} className={styles.scroll}>
-                    <span className={`p14 ${styles.scrollText}`}>{t.scroll}</span>
-                    <span className={styles.scrollIconBox}>
-                      <motion.span
-                        className={styles.scrollIcon}
-                        animate={{ y: [0, 4, 0] }}
-                        transition={{ duration: 1.6, ease: "easeInOut", repeat: Infinity }}
-                      >
-                        <ChevronDown width={34} height={34} />
-                      </motion.span>
-                    </span>
-                  </Reveal>
-                </div>
+                <Reveal onMount y={20} delay={0.2} className={styles.right}>
+                  <p className={`p16 ${styles.note}`}>{t.note}</p>
+                </Reveal>
               </div>
             </div>
           </div>
